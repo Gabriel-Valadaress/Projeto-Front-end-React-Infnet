@@ -1,5 +1,4 @@
-import MobileNavigation from "../components/MobileNavigation";
-import MobileHeader from "../components/MobileHeader";
+import Navigation from "../components/Navigation";
 import { useState } from "react";
 import { styled } from "styled-components";
 
@@ -7,7 +6,15 @@ const SummaryTable = styled.table`
   width: 100%;
   border-collapse: collapse;
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
+
+  @media (min-width: 576px){
+    font-size: 18px;
+  }
+
+  @media (min-width: 992px){
+    margin: 0;
+  }
 `;
 
 const SummaryTh = styled.th`
@@ -35,24 +42,40 @@ const FilterContainer = styled.div`
   flex-direction: column;
   gap: 10px;
   padding: 20px 10px;
+
+  @media (min-width: 992px){
+    margin: 75px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
 `;
 
 const Input = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
 
   &:focus {
     border-color: #6b8cff;
     outline: none;
   }
+
+  @media (min-width: 576px){
+    padding: 12px;
+    font-size: 18px;
+  }
 `;
 
 const Label = styled.label`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   margin-top: 5px;
+
+  @media (min-width: 576px){
+        font-size: 18px;
+  }
 `;
 
 export default function PlayersPage() {
@@ -130,8 +153,7 @@ export default function PlayersPage() {
 
     return (
         <div>
-            <MobileHeader />
-
+            <Navigation />
             <FilterContainer>
                 <Label>Nome</Label>
                 <Input
@@ -174,8 +196,6 @@ export default function PlayersPage() {
                     </SummaryTr>
                 ))}
             </SummaryTable>
-
-            <MobileNavigation />
         </div>
     );
 }

@@ -2,6 +2,7 @@ import HomePage from "./pages/HomePage";
 import TournamentsPage from "./pages/TournamentsPage";
 import PlayersPage from "./pages/PlayersPage";
 import ProfilePage from "./pages/ProfilePage";
+import SettingsPage from "./pages/SettingsPage";
 
 import { Route, Routes, Link } from "react-router-dom";
 
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/torneios" element={<TournamentsPage />} />
         <Route path="/jogadores" element={<PlayersPage />} />
         <Route path="/perfil" element={<ProfilePage />} />
+        <Route path="/configuracoes" element={<SettingsPage />} />
       </Routes>
   );
 }

@@ -1,5 +1,4 @@
-import MobileNavigation from "../components/MobileNavigation";
-import MobileHeader from "../components/MobileHeader";
+import Navigation from "../components/Navigation";
 
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
@@ -11,8 +10,21 @@ const Container = styled.div`
     align-items: center;
     gap: 20px;
     width: 100%;
-    margin-top: 18px;
-    padding: 0 24px;
+    margin: 18px 0;
+    padding: 0 36px;
+
+    @media (min-width: 576px){
+        padding: 0 48px;
+        margin-bottom: 120px;
+    }
+
+    @media (min-width: 768px){
+        padding: 0 60px;
+    }
+
+    @media (min-width: 992px){
+        margin: 120px 0;
+    }
 `;
 
 const TitleCard = styled.div`
@@ -28,6 +40,16 @@ const ProfilePicture = styled.img`
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
+
+    @media (min-width: 576px){
+        width: 150px;
+        height: 150px;
+    }
+
+    @media (min-width: 768px){
+        width: 200px;
+        height: 200px;
+    }
 `;
 
 const TitleText = styled.div`
@@ -35,11 +57,36 @@ const TitleText = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+
+    & p {
+        font-size: 16px;
+    }
+
+    @media (min-width: 576px){
+        & p {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 768px){
+        & p {
+            font-size: 24px;
+        }
+    }
 `;
 
 const TitleName = styled.h2`
     max-width: calc(100vw - 100px - 50px);
     text-align: end;
+    font-size: 26px;
+
+    @media (min-width: 576px){
+        font-size: 30px;
+    }
+
+    @media (min-width: 768px){
+        font-size: 32px;
+    }
 `;
 
 const ResultsSummary = styled.section`
@@ -57,12 +104,30 @@ const SummaryTitle = styled.h2`
     color: #000000;
     border-left: 4px solid #4a90e2;
     padding-left: 12px;
+
+    @media (min-width: 576px){
+        font-size: 30px;
+        border-left: 5px solid #4a90e2;
+    }
+
+    @media (min-width: 768px){
+        font-size: 32px;
+        border-left: 6px solid #4a90e2;
+    }
 `;
 
 const SummaryTable = styled.table`
     width: 100%;
     border-collapse: collapse;
     font-size: 16px;
+
+    @media (min-width: 576px){
+        font-size: 18px;
+    }
+
+    @media (min-width: 768px){
+        font-size: 20px;
+    }
 `;
 
 const SummaryTh = styled.th`
@@ -106,22 +171,40 @@ const Title = styled.h2`
     font-size: 20px;
     border-left: 4px solid #4a90e2;
     padding-left: 12px;
+
+    @media (min-width: 576px){
+        font-size: 30px;
+        border-left: 5px solid #4a90e2;
+    }
+
+    @media (min-width: 768px){
+        font-size: 32px;
+        border-left: 6px solid #4a90e2;
+    }
 `;
 
 const EditInfo = styled(Link)`
-  cursor: pointer;
-  color: #1d4ed8;
-  text-decoration: none;
-  transition: background-color 0.2s;
-  align-self: flex-end;
+    cursor: pointer;
+    color: #1d4ed8;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    align-self: flex-end;
+    font-size: 16px;
 
-  &:hover {
-    text-decoration: underline;
-  }
+    &:hover {
+      text-decoration: underline;
+    }
 
-  &:active {
-    text-decoration: underline;
-  }
+    &:active {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 576px){
+        font-size: 18px;
+    }   
+    @media (min-width: 768px){
+        font-size: 20px;
+    }
 `;
 
 const ProfileCard = styled.div`
@@ -144,9 +227,16 @@ const Label = styled.div`
 `;
 
 const Value = styled.div`
-  font-size: 1rem;
-  font-weight: 500;
-  color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1a1a;
+
+    @media (min-width: 576px){
+        font-size: 18px;
+    }   
+    @media (min-width: 768px){
+        font-size: 20px;
+    }
 `;
 
 export default function ProfilePage() {
@@ -166,7 +256,7 @@ export default function ProfilePage() {
 
     return (
         <>
-            <MobileHeader />
+            <Navigation />
             <Container>
                 <TitleCard>
                     <ProfilePicture src={perfil.urlImagem} alt={`Foto do ${perfil.nome}`} />
@@ -187,7 +277,7 @@ export default function ProfilePage() {
                         <SummaryTr>
                             <SummaryTd>{perfil.partidas}</SummaryTd>
                             <SummaryTd>{perfil.vitorias}</SummaryTd>
-                            <SummaryTd>{(perfil.vitorias / perfil.partidas)*100}%</SummaryTd>
+                            <SummaryTd>{(perfil.vitorias / perfil.partidas) * 100}%</SummaryTd>
                         </SummaryTr>
                     </SummaryTable>
                 </ResultsSummary>
@@ -236,7 +326,6 @@ export default function ProfilePage() {
                     </ProfileCard>
                 </InfosContainer>
             </Container>
-            <MobileNavigation />
         </>
 
     );

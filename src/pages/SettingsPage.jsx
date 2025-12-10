@@ -2,17 +2,17 @@ import Navigation from "../components/Navigation";
 
 import { styled } from "styled-components";
 
-const TournamentPageContainer = styled.div`
+const SettingsPageContainer = styled.div`
     @media (min-width: 992px) {
         margin-top: 75px;
     }
 `;
 
-export default function TournamentsPage(){
+export default function SettingsPage(){
     return (
-        <TournamentPageContainer>
+        <SettingsPageContainer>
             <Navigation />
-            <p>Tournaments page</p>
-        </TournamentPageContainer>
+            <p>Settings page</p>
+        </SettingsPageContainer>
     );
 }
