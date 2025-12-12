@@ -1,7 +1,9 @@
 import Navigation from "../components/Navigation";
 
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { styled } from "styled-components";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const Container = styled.div`
     display: flex;
@@ -241,28 +243,45 @@ const Value = styled.div`
 
 export default function ProfilePage() {
 
-    const perfil = {
-        nome: "Anakin Skywalker (Darth Vader)",
-        urlImagem: "https://www.globalo.com/content/uploads/2015/12/darth-vader.jpg",
-        dataNascimento: "01/01/1984",
-        partidas: 50,
-        vitorias: 25,
-        celular: "(51) 98765-4321",
-        altura: 1.98,
-        maoDominante: "Direita",
-        estado: "Região dos Huts",
-        cidade: "Mos Espa",
-    };
+    const { id } = useParams();
+    const [profile, setProfile] = useState({});
+
+    function getProfile() {
+        let response;
+        if (id) {
+            response = axios.get("/api/jogadores.json");
+            response.then((result) => {
+                const players = result.data;
+                const found = players.find(p => String(p.id) === String(id));
+                setProfile(found || {});
+            })
+                .catch(() => {
+                    alert("Erro na requisição");
+                });
+        } else {
+            response = axios.get("api/me.json");
+            response.then((result) => {
+                setProfile(result.data[0]);
+            });
+            response.catch(() => {
+                alert("Erro na requisição");
+            })
+        }
+    }
+
+    useEffect(() => {
+        getProfile();
+    }, [id]);
 
     return (
         <>
             <Navigation />
             <Container>
                 <TitleCard>
-                    <ProfilePicture src={perfil.urlImagem} alt={`Foto do ${perfil.nome}`} />
+                    <ProfilePicture src={profile.urlImagem} alt={`Foto do ${profile.nome}`} />
                     <TitleText>
-                        <TitleName>{perfil.nome}</TitleName>
-                        <p>{new Date().getFullYear() - new Date(perfil.dataNascimento).getFullYear()} anos</p>
+                        <TitleName>{profile.nome}</TitleName>
+                        <p>{new Date().getFullYear() - new Date(profile.dataNascimento).getFullYear()} anos</p>
                     </TitleText>
                 </TitleCard>
 
@@ -275,9 +294,9 @@ export default function ProfilePage() {
                             <SummaryTh>Aproveitamento</SummaryTh>
                         </SummaryTr>
                         <SummaryTr>
-                            <SummaryTd>{perfil.partidas}</SummaryTd>
-                            <SummaryTd>{perfil.vitorias}</SummaryTd>
-                            <SummaryTd>{(perfil.vitorias / perfil.partidas) * 100}%</SummaryTd>
+                            <SummaryTd>{profile.partidas}</SummaryTd>
+                            <SummaryTd>{profile.vitorias}</SummaryTd>
+                            <SummaryTd>{((profile.vitorias / profile.partidas) * 100).toFixed(2)}%</SummaryTd>
                         </SummaryTr>
                     </SummaryTable>
                 </ResultsSummary>
@@ -291,37 +310,37 @@ export default function ProfilePage() {
                     <ProfileCard>
                         <InfoItem>
                             <Label>Nome</Label>
-                            <Value>{perfil.nome}</Value>
+                            <Value>{profile.nome}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Data de Nascimento</Label>
-                            <Value>{perfil.dataNascimento}</Value>
+                            <Value>{profile.dataNascimento}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Celular</Label>
-                            <Value>{perfil.celular}</Value>
+                            <Value>{profile.celular}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Altura</Label>
-                            <Value>{perfil.altura} m</Value>
+                            <Value>{profile.altura} m</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Mão Dominante</Label>
-                            <Value>{perfil.maoDominante}</Value>
+                            <Value>{profile.maoDominante}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Estado</Label>
-                            <Value>{perfil.estado}</Value>
+                            <Value>{profile.estado}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Cidade</Label>
-                            <Value>{perfil.cidade}</Value>
+                            <Value>{profile.cidade}</Value>
                         </InfoItem>
                     </ProfileCard>
                 </InfosContainer>
