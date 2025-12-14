@@ -129,7 +129,7 @@ export default function PlayersPage() {
   const navigate = useNavigate();
 
   function goToProfile(id) {
-    navigate(`/perfil/${id}`)
+    navigate(`/perfil/${id}`);
   }
 
   return (
