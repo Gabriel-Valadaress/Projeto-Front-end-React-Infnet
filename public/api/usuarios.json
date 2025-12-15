@@ -1,0 +1,977 @@
+[
+  {
+    "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+    "tipo": "organizador",
+    "nome": "Daniela Santos",
+    "email": "daniela_santos@email.com",
+    "celular": "(11) 94583-3351",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/52.jpg",
+    "dataNascimento": "1996-08-09",
+    "estatisticas": {
+      "partidas": 131,
+      "vitorias": 18,
+      "derrotas": 113,
+      "percentualVitorias": 13.74
+    },
+    "detalhesJogador": {
+      "altura": 1.72,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "6ba304fd-cd7a-4a72-977f-7af7be85c3bc",
+    "tipo": "organizador",
+    "nome": "Pedro Santos",
+    "email": "pedro_santos@email.com",
+    "celular": "(11) 96817-9896",
+    "endereco": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/57.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 5,
+      "avaliacaoMedia": 3.9
+    }
+  },
+  {
+    "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+    "tipo": "organizador",
+    "nome": "Carlos Ribeiro",
+    "email": "carlos_ribeiro@email.com",
+    "celular": "(11) 96735-8670",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/60.jpg",
+    "dataNascimento": "1990-08-16",
+    "estatisticas": {
+      "partidas": 134,
+      "vitorias": 31,
+      "derrotas": 103,
+      "percentualVitorias": 23.13
+    },
+    "detalhesJogador": {
+      "altura": 1.65,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
+    "tipo": "organizador",
+    "nome": "Pedro Gomes",
+    "email": "pedro_gomes@email.com",
+    "celular": "(11) 96192-6505",
+    "endereco": {
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/52.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 20,
+      "avaliacaoMedia": 4.1
+    }
+  },
+  {
+    "id": "84510dd1-0363-42a5-899c-d4bbde3c2cc3",
+    "tipo": "organizador",
+    "nome": "Pedro Ribeiro",
+    "email": "pedro_ribeiro@email.com",
+    "celular": "(11) 93756-5418",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/79.jpg",
+    "dataNascimento": "1988-09-12",
+    "estatisticas": {
+      "partidas": 42,
+      "vitorias": 22,
+      "derrotas": 20,
+      "percentualVitorias": 52.38
+    },
+    "detalhesJogador": {
+      "altura": 1.57,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
+    "tipo": "organizador",
+    "nome": "Lucas Ferreira",
+    "email": "pedro_oliveira@email.com",
+    "celular": "(11) 98146-7836",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/65.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 23,
+      "avaliacaoMedia": 4.8
+    }
+  },
+  {
+    "id": "8f00e896-0658-4bd0-8a9e-091704930201",
+    "tipo": "jogador",
+    "nome": "Isabela Nunes",
+    "email": "isabela_nunes@email.com",
+    "celular": "(11) 91396-8363",
+    "endereco": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/78.jpg",
+    "dataNascimento": "2004-05-16",
+    "estatisticas": {
+      "partidas": 147,
+      "vitorias": 120,
+      "derrotas": 27,
+      "percentualVitorias": 81.63
+    },
+    "detalhesJogador": {
+      "altura": 1.56,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "7a2385e6-3b04-40db-8862-b709d47f1a61",
+    "tipo": "organizador",
+    "nome": "Henrique Pereira",
+    "email": "henrique_pereira@email.com",
+    "celular": "(11) 96208-7390",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/99.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 46,
+      "avaliacaoMedia": 4.4
+    }
+  },
+  {
+    "id": "4c66a4e2-d7c4-4152-87c1-9777cb08f222",
+    "tipo": "jogador",
+    "nome": "Carlos Gomes",
+    "email": "carlos_gomes@email.com",
+    "celular": "(11) 99336-5573",
+    "endereco": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/50.jpg",
+    "dataNascimento": "1990-11-05",
+    "estatisticas": {
+      "partidas": 120,
+      "vitorias": 23,
+      "derrotas": 97,
+      "percentualVitorias": 19.17
+    },
+    "detalhesJogador": {
+      "altura": 1.81,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "06fe0b32-8760-44b1-acd9-c35b75ad7e39",
+    "tipo": "organizador",
+    "nome": "Pedro Silva",
+    "email": "pedro_silva@email.com",
+    "celular": "(11) 96041-5779",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/29.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 44,
+      "avaliacaoMedia": 4.9
+    }
+  },
+  {
+    "id": "98aa10ea-1733-4b14-bf86-eb1a9ea5a7ab",
+    "tipo": "jogador",
+    "nome": "Helena Pereira",
+    "email": "helena_pereira@email.com",
+    "celular": "(11) 94330-8263",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/39.jpg",
+    "dataNascimento": "1981-10-20",
+    "estatisticas": {
+      "partidas": 114,
+      "vitorias": 35,
+      "derrotas": 79,
+      "percentualVitorias": 30.7
+    },
+    "detalhesJogador": {
+      "altura": 1.61,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "dc7f5694-0208-4fbc-9d6c-cfd34cff09e7",
+    "tipo": "organizador",
+    "nome": "Lucas Silva",
+    "email": "lucas_silva@email.com",
+    "celular": "(11) 95817-8749",
+    "endereco": {
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/25.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 28,
+      "avaliacaoMedia": 4.7
+    }
+  },
+  {
+    "id": "9547f897-9030-4c95-8fe6-b469964a9aa8",
+    "tipo": "jogador",
+    "nome": "Carlos Gomes",
+    "email": "carlos_gomes@email.com",
+    "celular": "(11) 96948-2227",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/31.jpg",
+    "dataNascimento": "1977-01-18",
+    "estatisticas": {
+      "partidas": 134,
+      "vitorias": 96,
+      "derrotas": 38,
+      "percentualVitorias": 71.64
+    },
+    "detalhesJogador": {
+      "altura": 1.58,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "0cb5682f-83d1-4fc1-85f5-55c264861cf3",
+    "tipo": "organizador",
+    "nome": "Gustavo Costa",
+    "email": "gustavo_costa@email.com",
+    "celular": "(11) 98866-7864",
+    "endereco": {
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/35.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 15,
+      "avaliacaoMedia": 3.8
+    }
+  },
+  {
+    "id": "22a57bd1-bca5-4885-94b8-47255a01c9b2",
+    "tipo": "jogador",
+    "nome": "Fernanda Pereira",
+    "email": "fernanda_pereira@email.com",
+    "celular": "(11) 93914-2674",
+    "endereco": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/51.jpg",
+    "dataNascimento": "1985-06-25",
+    "estatisticas": {
+      "partidas": 71,
+      "vitorias": 54,
+      "derrotas": 17,
+      "percentualVitorias": 76.06
+    },
+    "detalhesJogador": {
+      "altura": 1.8,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "d50a51b3-e6c5-44a1-aa03-09c13a9872ce",
+    "tipo": "organizador",
+    "nome": "Lucas Almeida",
+    "email": "lucas_almeida@email.com",
+    "celular": "(11) 97681-9815",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/28.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 4,
+      "avaliacaoMedia": 4.5
+    }
+  },
+  {
+    "id": "4708d861-a14f-4331-8b7c-a2760a6b95f9",
+    "tipo": "jogador",
+    "nome": "Lucas Costa",
+    "email": "lucas_costa@email.com",
+    "celular": "(11) 95676-2634",
+    "endereco": {
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/39.jpg",
+    "dataNascimento": "1989-01-23",
+    "estatisticas": {
+      "partidas": 78,
+      "vitorias": 19,
+      "derrotas": 59,
+      "percentualVitorias": 24.36
+    },
+    "detalhesJogador": {
+      "altura": 1.83,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "1cd7c5de-a495-431a-a274-83766ddba08c",
+    "tipo": "organizador",
+    "nome": "Eduardo Almeida",
+    "email": "eduardo_almeida@email.com",
+    "celular": "(11) 92955-9754",
+    "endereco": {
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/66.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 10,
+      "avaliacaoMedia": 3.6
+    }
+  },
+  {
+    "id": "2888aeb7-71fb-4c61-863b-a664771e9dad",
+    "tipo": "jogador",
+    "nome": "Gustavo Silva",
+    "email": "gustavo_silva@email.com",
+    "celular": "(11) 95274-2201",
+    "endereco": {
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/23.jpg",
+    "dataNascimento": "1999-08-17",
+    "estatisticas": {
+      "partidas": 47,
+      "vitorias": 42,
+      "derrotas": 5,
+      "percentualVitorias": 89.36
+    },
+    "detalhesJogador": {
+      "altura": 1.66,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "c3216f71-8219-4a35-ae25-4a64964c40f1",
+    "tipo": "organizador",
+    "nome": "Lucas Costa",
+    "email": "lucas_costa@email.com",
+    "celular": "(11) 95843-4358",
+    "endereco": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/43.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 12,
+      "avaliacaoMedia": 3.9
+    }
+  },
+  {
+    "id": "b4440215-ad95-40c3-86d6-b5f5b9cd4005",
+    "tipo": "jogador",
+    "nome": "Mariana Pereira",
+    "email": "mariana_pereira@email.com",
+    "celular": "(11) 91866-7213",
+    "endereco": {
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/17.jpg",
+    "dataNascimento": "1985-02-15",
+    "estatisticas": {
+      "partidas": 112,
+      "vitorias": 32,
+      "derrotas": 80,
+      "percentualVitorias": 28.57
+    },
+    "detalhesJogador": {
+      "altura": 1.63,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "3e0ddcf3-f423-4bbd-9280-1eae08b0c22b",
+    "tipo": "organizador",
+    "nome": "Carlos Ribeiro",
+    "email": "carlos_ribeiro@email.com",
+    "celular": "(11) 98448-7289",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/97.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 37,
+      "avaliacaoMedia": 4.0
+    }
+  },
+  {
+    "id": "3bcc461a-19b4-4824-9fb9-a009de0730ae",
+    "tipo": "jogador",
+    "nome": "Eduarda Rodrigues",
+    "email": "eduarda_rodrigues@email.com",
+    "celular": "(11) 96568-5171",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/65.jpg",
+    "dataNascimento": "1979-08-26",
+    "estatisticas": {
+      "partidas": 57,
+      "vitorias": 51,
+      "derrotas": 6,
+      "percentualVitorias": 89.47
+    },
+    "detalhesJogador": {
+      "altura": 1.67,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "53332ae7-73fe-40d6-9da4-175959454972",
+    "tipo": "organizador",
+    "nome": "João Costa",
+    "email": "joão_costa@email.com",
+    "celular": "(11) 96858-4734",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/35.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 9,
+      "avaliacaoMedia": 4.0
+    }
+  },
+  {
+    "id": "d612e3d9-ac6b-4034-af76-b2b05462d352",
+    "tipo": "jogador",
+    "nome": "Bruno Silva",
+    "email": "bruno_silva@email.com",
+    "celular": "(11) 93098-2140",
+    "endereco": {
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/13.jpg",
+    "dataNascimento": "1987-12-13",
+    "estatisticas": {
+      "partidas": 141,
+      "vitorias": 137,
+      "derrotas": 4,
+      "percentualVitorias": 97.16
+    },
+    "detalhesJogador": {
+      "altura": 1.74,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "456e83b8-4aad-4353-a603-e430f81c9811",
+    "tipo": "organizador",
+    "nome": "Pedro Almeida",
+    "email": "pedro_almeida@email.com",
+    "celular": "(11) 91193-4762",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/35.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 35,
+      "avaliacaoMedia": 3.9
+    }
+  },
+  {
+    "id": "5fe5fb88-4ecc-49ce-bc95-23f8ed11d455",
+    "tipo": "jogador",
+    "nome": "Carla Nunes",
+    "email": "carla_nunes@email.com",
+    "celular": "(11) 92778-6065",
+    "endereco": {
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/46.jpg",
+    "dataNascimento": "1979-09-06",
+    "estatisticas": {
+      "partidas": 68,
+      "vitorias": 67,
+      "derrotas": 1,
+      "percentualVitorias": 98.53
+    },
+    "detalhesJogador": {
+      "altura": 1.91,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "6317168c-e247-4438-8147-dfe7c2226375",
+    "tipo": "organizador",
+    "nome": "Lucas Almeida",
+    "email": "lucas_almeida@email.com",
+    "celular": "(11) 96502-8698",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/40.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 50,
+      "avaliacaoMedia": 4.3
+    }
+  },
+  {
+    "id": "fc9bdcf3-a581-4892-bca1-286f80c05cf0",
+    "tipo": "jogador",
+    "nome": "Victor Rodrigues",
+    "email": "victor_rodrigues@email.com",
+    "celular": "(11) 99355-8678",
+    "endereco": {
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/81.jpg",
+    "dataNascimento": "1994-05-19",
+    "estatisticas": {
+      "partidas": 57,
+      "vitorias": 41,
+      "derrotas": 16,
+      "percentualVitorias": 71.93
+    },
+    "detalhesJogador": {
+      "altura": 1.74,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "655ce09c-9341-4588-96e0-50eaf567db3f",
+    "tipo": "organizador",
+    "nome": "Eduardo Costa",
+    "email": "eduardo_costa@email.com",
+    "celular": "(11) 91806-7541",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/97.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 5,
+      "avaliacaoMedia": 4.3
+    }
+  },
+  {
+    "id": "7e11011e-212a-4b0b-9810-e83015594d6c",
+    "tipo": "jogador",
+    "nome": "Helena Ribeiro",
+    "email": "helena_ribeiro@email.com",
+    "celular": "(11) 99388-6494",
+    "endereco": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/54.jpg",
+    "dataNascimento": "2004-08-22",
+    "estatisticas": {
+      "partidas": 84,
+      "vitorias": 83,
+      "derrotas": 1,
+      "percentualVitorias": 98.81
+    },
+    "detalhesJogador": {
+      "altura": 1.88,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "192c5f13-e0ff-46cb-8c41-80890c125215",
+    "tipo": "organizador",
+    "nome": "João Silva",
+    "email": "joão_silva@email.com",
+    "celular": "(11) 93879-4380",
+    "endereco": {
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/1.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 2,
+      "avaliacaoMedia": 4.0
+    }
+  },
+  {
+    "id": "de98d678-629c-48ce-9b7e-7fffb0ca6534",
+    "tipo": "jogador",
+    "nome": "Felipe Ribeiro",
+    "email": "felipe_ribeiro@email.com",
+    "celular": "(11) 99774-7332",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/32.jpg",
+    "dataNascimento": "2001-09-23",
+    "estatisticas": {
+      "partidas": 71,
+      "vitorias": 12,
+      "derrotas": 59,
+      "percentualVitorias": 16.9
+    },
+    "detalhesJogador": {
+      "altura": 1.74,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "0f0ce264-3ad6-4141-b6ea-14990b19266d",
+    "tipo": "organizador",
+    "nome": "Leonardo Ribeiro",
+    "email": "leonardo_ribeiro@email.com",
+    "celular": "(11) 94024-6525",
+    "endereco": {
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/88.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 43,
+      "avaliacaoMedia": 4.3
+    }
+  },
+  {
+    "id": "e915184a-a762-4bab-90d9-9650b271c10a",
+    "tipo": "jogador",
+    "nome": "Carla Silva",
+    "email": "carla_silva@email.com",
+    "celular": "(11) 96095-8512",
+    "endereco": {
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/54.jpg",
+    "dataNascimento": "2003-06-23",
+    "estatisticas": {
+      "partidas": 138,
+      "vitorias": 74,
+      "derrotas": 64,
+      "percentualVitorias": 53.62
+    },
+    "detalhesJogador": {
+      "altura": 1.82,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "03b7e65c-cb0c-4932-903d-724fca017eb6",
+    "tipo": "organizador",
+    "nome": "João Pereira",
+    "email": "joão_pereira@email.com",
+    "celular": "(11) 97583-3653",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/66.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 16,
+      "avaliacaoMedia": 3.9
+    }
+  },
+  {
+    "id": "afb76b8f-f754-4518-bb19-45ad7375b40a",
+    "tipo": "jogador",
+    "nome": "Thiago Silva",
+    "email": "thiago_silva@email.com",
+    "celular": "(11) 92174-4947",
+    "endereco": {
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/1.jpg",
+    "dataNascimento": "2005-11-09",
+    "estatisticas": {
+      "partidas": 116,
+      "vitorias": 108,
+      "derrotas": 8,
+      "percentualVitorias": 93.1
+    },
+    "detalhesJogador": {
+      "altura": 1.9,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "49aaa625-536d-4d45-82e1-2ba0bf84aaa7",
+    "tipo": "organizador",
+    "nome": "Thiago Nunes",
+    "email": "thiago_nunes@email.com",
+    "celular": "(11) 98130-3530",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/26.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 8,
+      "avaliacaoMedia": 4.8
+    }
+  },
+  {
+    "id": "eec9f45e-a8ec-47e3-835d-199bbb2c9db7",
+    "tipo": "jogador",
+    "nome": "Carlos Pereira",
+    "email": "carlos_pereira@email.com",
+    "celular": "(11) 95319-1362",
+    "endereco": {
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/3.jpg",
+    "dataNascimento": "2001-07-18",
+    "estatisticas": {
+      "partidas": 68,
+      "vitorias": 25,
+      "derrotas": 43,
+      "percentualVitorias": 36.76
+    },
+    "detalhesJogador": {
+      "altura": 1.69,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "93fc83dc-c3c5-478e-bdff-a2709aa48476",
+    "tipo": "organizador",
+    "nome": "Diego Silva",
+    "email": "diego_silva@email.com",
+    "celular": "(11) 98667-8728",
+    "endereco": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/84.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 22,
+      "avaliacaoMedia": 4.0
+    }
+  },
+  {
+    "id": "79214748-da6a-4218-81cf-dc89bd8d4f3d",
+    "tipo": "jogador",
+    "nome": "Leonardo Almeida",
+    "email": "leonardo_almeida@email.com",
+    "celular": "(11) 96637-6454",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/28.jpg",
+    "dataNascimento": "1975-11-19",
+    "estatisticas": {
+      "partidas": 131,
+      "vitorias": 86,
+      "derrotas": 45,
+      "percentualVitorias": 65.65
+    },
+    "detalhesJogador": {
+      "altura": 1.57,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "4d572121-44b7-4ef3-a6f4-08e6e0d06a6f",
+    "tipo": "organizador",
+    "nome": "Thiago Silva",
+    "email": "thiago_silva@email.com",
+    "celular": "(11) 94724-4655",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/92.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 2,
+      "avaliacaoMedia": 4.6
+    }
+  },
+  {
+    "id": "f3ec6630-43a8-4460-a3b0-1251851ff0ff",
+    "tipo": "jogador",
+    "nome": "Gabriela Pereira",
+    "email": "gabriela_pereira@email.com",
+    "celular": "(11) 99620-6206",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/39.jpg",
+    "dataNascimento": "1980-12-21",
+    "estatisticas": {
+      "partidas": 127,
+      "vitorias": 28,
+      "derrotas": 99,
+      "percentualVitorias": 22.05
+    },
+    "detalhesJogador": {
+      "altura": 1.7,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "e24907b2-40b9-465d-8c8e-083c23a0f239",
+    "tipo": "organizador",
+    "nome": "Diego Gomes",
+    "email": "diego_gomes@email.com",
+    "celular": "(11) 93017-6906",
+    "endereco": {
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/35.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 19,
+      "avaliacaoMedia": 4.4
+    }
+  },
+  {
+    "id": "4eeb6535-a19d-4b27-bd16-f5348f7599c0",
+    "tipo": "jogador",
+    "nome": "Juliana Santos",
+    "email": "juliana_santos@email.com",
+    "celular": "(11) 99152-8072",
+    "endereco": {
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/98.jpg",
+    "dataNascimento": "1977-03-17",
+    "estatisticas": {
+      "partidas": 37,
+      "vitorias": 37,
+      "derrotas": 0,
+      "percentualVitorias": 100.0
+    },
+    "detalhesJogador": {
+      "altura": 1.62,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "7e96e5cb-bd1b-4e15-bb87-197cc80ca781",
+    "tipo": "organizador",
+    "nome": "Lucas Costa",
+    "email": "lucas_costa@email.com",
+    "celular": "(11) 98811-6248",
+    "endereco": {
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/8.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 11,
+      "avaliacaoMedia": 4.9
+    }
+  },
+  {
+    "id": "37889773-0a59-4710-8406-23683e156944",
+    "tipo": "jogador",
+    "nome": "Daniela Ribeiro",
+    "email": "daniela_ribeiro@email.com",
+    "celular": "(11) 94486-3682",
+    "endereco": {
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/52.jpg",
+    "dataNascimento": "1982-05-06",
+    "estatisticas": {
+      "partidas": 133,
+      "vitorias": 118,
+      "derrotas": 15,
+      "percentualVitorias": 88.72
+    },
+    "detalhesJogador": {
+      "altura": 1.72,
+      "maoDominante": "Direita"
+    }
+  },
+  {
+    "id": "0c06dfe1-a75b-497b-adeb-443330d8e91f",
+    "tipo": "organizador",
+    "nome": "Lucas Gomes",
+    "email": "lucas_gomes@email.com",
+    "celular": "(11) 94946-9418",
+    "endereco": {
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/66.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 21,
+      "avaliacaoMedia": 4.8
+    }
+  },
+  {
+    "id": "7f88f601-e431-4759-9b89-190b69f2b83a",
+    "tipo": "jogador",
+    "nome": "Natália Gomes",
+    "email": "natália_gomes@email.com",
+    "celular": "(11) 97755-4989",
+    "endereco": {
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/women/69.jpg",
+    "dataNascimento": "1990-11-17",
+    "estatisticas": {
+      "partidas": 117,
+      "vitorias": 18,
+      "derrotas": 99,
+      "percentualVitorias": 15.38
+    },
+    "detalhesJogador": {
+      "altura": 1.59,
+      "maoDominante": "Esquerda"
+    }
+  },
+  {
+    "id": "c08137cc-bdac-494b-97e8-480870f1661c",
+    "tipo": "organizador",
+    "nome": "Felipe Costa",
+    "email": "felipe_costa@email.com",
+    "celular": "(11) 96555-8276",
+    "endereco": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "urlImagem": "https://randomuser.me/api/portraits/men/13.jpg",
+    "detalhesOrganizador": {
+      "torneiosOrganizados": 11,
+      "avaliacaoMedia": 4.0
+    }
+  }
+]

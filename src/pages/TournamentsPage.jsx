@@ -129,13 +129,23 @@ const TournamentTitle = styled.h3`
     font-weight: 600;
 `;
 
+const StatusSelection = styled.select`
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 95%;
+`;
+
 export default function TournamentsPage() {
 
-    const [filterMes, setFilterMes] = useState("");
-    const [filterAno, setFilterAno] = useState("");
+    const [filterLocal, setFilterLocal] = useState("");
+    const [filterData, setFilterData] = useState("");
     const [filterStatus, setFilterStatus] = useState("");
-    const [filterEstado, setFilterEstado] = useState("");
-    const [filterCidade, setFilterCidade] = useState("");
+    const [filterOrganizador, setFilterOrganizador] = useState("");
+    const [filterTitulo, setFilterTitulo] = useState("");
+
 
     const [tournaments, setTournaments] = useState([]);
 
@@ -151,12 +161,31 @@ export default function TournamentsPage() {
         getTournaments();
     }, []);
 
-    const filteredTournaments = tournaments.filter((t) =>
-        t.titulo.toLowerCase().includes(filterMes.toLowerCase()) &&
-        t.status.toLowerCase().includes(filterStatus.toLowerCase()) &&
-        t.estado.toLowerCase().includes(filterEstado.toLowerCase()) &&
-        t.cidade.toLowerCase().includes(filterCidade.toLowerCase())
-    );
+    const filteredTournaments = tournaments.filter((t) => {
+        const dataInicio = new Date(t.dataInicio);
+
+        const ano = dataInicio.getFullYear().toString();
+        const mes = String(dataInicio.getMonth() + 1).padStart(2, "0");
+        const anoMes = `${ano}-${mes}`;
+
+        const localMatch =
+            t.local.estado.toLowerCase().includes(filterLocal.toLowerCase()) ||
+            t.local.cidade.toLowerCase().includes(filterLocal.toLowerCase());
+
+        const dataMatch =
+            !filterData ||
+            ano === filterData ||
+            anoMes === filterData;
+
+        return (
+            (!filterLocal || localMatch) &&
+            dataMatch &&
+            t.status.toLowerCase().includes(filterStatus.toLowerCase()) &&
+            t.organizador.nome.toLowerCase().includes(filterOrganizador.toLowerCase()) &&
+            t.titulo.toLowerCase().includes(filterTitulo.toLowerCase())
+        );
+    });
+
 
     const navigate = useNavigate();
 
@@ -173,67 +202,76 @@ export default function TournamentsPage() {
             <Navigation />
             <FilterContainer>
                 <LabelInputContainer>
-                    <Label>Estado</Label>
+                    <Label>Local (Cidade ou Estado)</Label>
                     <Input
                         type="text"
-                        value={filterEstado}
-                        onChange={(e) => setFilterEstado(e.target.value)}
+                        placeholder="Ex: Porto Alegre ou RS"
+                        value={filterLocal}
+                        onChange={(e) => setFilterLocal(e.target.value)}
                     />
                 </LabelInputContainer>
+
                 <LabelInputContainer>
-                    <Label>Cidade</Label>
+                    <Label>Data (Ano ou Ano-Mês)</Label>
                     <Input
                         type="text"
-                        value={filterCidade}
-                        onChange={(e) => setFilterCidade(e.target.value)}
+                        placeholder="Ex: 2025 ou 2025-03"
+                        value={filterData}
+                        onChange={(e) => setFilterData(e.target.value)}
                     />
                 </LabelInputContainer>
+
                 <LabelInputContainer>
-                    <Label>Mês</Label>
+                    <Label>Título do Torneio</Label>
                     <Input
                         type="text"
-                        value={filterMes}
-                        onChange={(e) => setFilterMes(e.target.value)}
+                        placeholder="Ex: Open Beach Tennis"
+                        value={filterTitulo}
+                        onChange={(e) => setFilterTitulo(e.target.value)}
                     />
                 </LabelInputContainer>
+
                 <LabelInputContainer>
-                    <Label>Ano</Label>
+                    <Label>Organizador</Label>
                     <Input
                         type="text"
-                        value={filterAno}
-                        onChange={(e) => setFilterAno(e.target.value)}
+                        placeholder="Nome do organizador"
+                        value={filterOrganizador}
+                        onChange={(e) => setFilterOrganizador(e.target.value)}
                     />
                 </LabelInputContainer>
+
                 <LabelInputContainer>
                     <Label>Status</Label>
-                    <select
-                        type="checkbox"
+                    <StatusSelection
                         value={filterStatus}
-                        onChange={(e) => setFilterStatus(e.target.value)}
-                    >
-                        <option>Inscrições abertas</option>
-                        <option>Torneio em andamento</option>
-                        <option>Torneio encerrado</option>
-                    </select>
+                        onChange={(e) => setFilterStatus(e.target.value)}>
+                        <option value="">Todos</option>
+                        <option value="Inscrições abertas">Inscrições abertas</option>
+                        <option value="Torneio em andamento">Torneio em andamento</option>
+                        <option value="Torneio encerrado">Torneio encerrado</option>
+                    </StatusSelection>
                 </LabelInputContainer>
             </FilterContainer>
+
 
             <TournamentsCardsContainer>
                 {filteredTournaments.map((tournament, index) => (
                     <TournamentCard key={index} onClick={() => goToTournament(tournament.id)}>
-                        <img src={tournament.url_imagem} alt={tournament.titulo} />
+                        <img src={tournament.urlImagem} alt={tournament.titulo} />
                         <TournamentCardInfo>
                             <TitleOrganizerContainer>
                                 <TournamentTitle>{tournament.titulo}</TournamentTitle>
                                 <p onClick={(e) => {
                                     e.stopPropagation();
-                                    goToOrganizerProfile(tournament.organizador_id);
+                                    goToOrganizerProfile(tournament.organizador.id);
                                 }}>
-                                    <strong>Organizador:</strong> {tournament.organizador_nome}
+                                    <strong>Organizador:</strong> {tournament.organizador.nome}
                                 </p>
                             </TitleOrganizerContainer>
-                            <p><strong>Local:</strong> {tournament.cidade} / {tournament.estado}</p>
-                            <p><strong>Data:</strong> {tournament.data}</p>
+                            <p><strong>Local:</strong> {tournament.local.cidade} / {tournament.local.estado}</p>
+                            <p><strong>Data:</strong> {tournament.dataInicio} à {tournament.dataFim}</p>
+                            <p><strong>Prazo para inscrição:</strong> {tournament.dataLimiteInscricao}</p>
                             <p><strong>Status:</strong> {tournament.status}</p>
                         </TournamentCardInfo>
                     </TournamentCard>

@@ -1,387 +1,1083 @@
 [
   {
-    "id": "60a81a98-a75b-426c-a899-49bf66e12292",
-    "titulo": "Torneio de Beach Tennis 1",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-03-26",
-    "status": "Torneio em andamento",
-    "cidade": "São Paulo",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
-  },
-  {
-    "id": "d3f6475a-d11e-45b7-b00f-51d9487a5429",
-    "titulo": "Torneio de Beach Tennis 2",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-03-16",
-    "status": "Torneio em andamento",
-    "cidade": "João Pessoa",
-    "estado": "PB",
-    "organizador_id": "2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d9f99",
-    "organizador_nome": "Eduardo Farias"
-  },
-  {
-    "id": "daa9077a-0922-495b-94a5-d41f4df4061e",
-    "titulo": "Torneio de Beach Tennis 3",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-04-29",
-    "status": "Torneio em andamento",
-    "cidade": "Guarujá",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
-  },
-  {
-    "id": "c1f681a9-17e2-4246-83c9-f9bf7061600e",
-    "titulo": "Torneio de Beach Tennis 4",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-10-21",
-    "status": "Torneio em andamento",
-    "cidade": "São Paulo",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
-  },
-  {
-    "id": "10bee7d4-29bd-4fd9-9560-f8ab5485b0af",
-    "titulo": "Torneio de Beach Tennis 5",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-02-10",
-    "status": "Inscrições abertas",
-    "cidade": "Florianópolis",
-    "estado": "SC",
-    "organizador_id": "c4a8d3e6-2f9b-4a1d-b7e4-9c2a6f5d8e33",
-    "organizador_nome": "Rafael Costa"
-  },
-  {
-    "id": "0f6c1515-9bcf-423c-98fc-79345bc74f1e",
-    "titulo": "Torneio de Beach Tennis 6",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-06-03",
-    "status": "Torneio em andamento",
-    "cidade": "Rio de Janeiro",
-    "estado": "RJ",
-    "organizador_id": "b7f0e2a1-1c9a-4e2d-8f65-2b6e9c4a7f22",
-    "organizador_nome": "Mariana Alves"
-  },
-  {
-    "id": "743fbb5d-bec2-4746-8ebf-0da30319bd56",
-    "titulo": "Torneio de Beach Tennis 7",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-05-28",
-    "status": "Torneio em andamento",
-    "cidade": "Itajaí",
-    "estado": "SC",
-    "organizador_id": "0a1b2c3d-4e5f-4a6b-8c9d-7e6f5a4b8d77",
-    "organizador_nome": "Diego Nogueira"
-  },
-  {
-    "id": "d13b7565-51db-44af-9200-6af87e04c979",
-    "titulo": "Torneio de Beach Tennis 8",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-28",
-    "status": "Torneio em andamento",
-    "cidade": "Recife",
-    "estado": "PE",
-    "organizador_id": "e1f7c9a2-8d5b-4e3c-9a6f-2b4d7e8c5a55",
-    "organizador_nome": "Bruno Martins"
-  },
-  {
-    "id": "26bf24a4-193a-40da-b064-d1b56a56f655",
-    "titulo": "Torneio de Beach Tennis 9",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-08-09",
+    "id": "3cfde1d9-1f51-4a4a-9d67-31908daf4895",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-06-17",
+    "dataFim": "2025-06-20",
+    "dataLimiteInscricao": "2025-06-12",
     "status": "Torneio encerrado",
-    "cidade": "Salvador",
-    "estado": "BA",
-    "organizador_id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6a10",
-    "organizador_nome": "Renata Souza"
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 4
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 3
+      },
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 13
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 180.0,
+      "totalInscritos": 20,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 2000.0
+    }
   },
   {
-    "id": "066b8070-d9b8-4dc5-9759-adcbcf0f2e92",
-    "titulo": "Torneio de Beach Tennis 10",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-08-05",
-    "status": "Inscrições abertas",
-    "cidade": "Salvador",
-    "estado": "BA",
-    "organizador_id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6a10",
-    "organizador_nome": "Renata Souza"
+    "id": "3806dae7-e952-4692-a120-a65fe0f494df",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-09-13",
+    "dataFim": "2025-09-16",
+    "dataLimiteInscricao": "2025-09-08",
+    "status": "Torneio em andamento",
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 2
+      },
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 19
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 21,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 5000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 1000.0
+    }
   },
   {
-    "id": "8dc5220b-cb00-43e5-8bc4-39be0d175962",
-    "titulo": "Torneio de Beach Tennis 11",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-04-05",
-    "status": "Inscrições abertas",
-    "cidade": "Itajaí",
-    "estado": "SC",
-    "organizador_id": "0a1b2c3d-4e5f-4a6b-8c9d-7e6f5a4b8d77",
-    "organizador_nome": "Diego Nogueira"
-  },
-  {
-    "id": "5ebd16ff-b466-44bd-ae8a-0e76d73036ba",
-    "titulo": "Torneio de Beach Tennis 12",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-23",
-    "status": "Inscrições abertas",
-    "cidade": "João Pessoa",
-    "estado": "PB",
-    "organizador_id": "2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d9f99",
-    "organizador_nome": "Eduardo Farias"
-  },
-  {
-    "id": "3cc4f769-8421-48bc-bd1a-a7e977d4dd7f",
-    "titulo": "Torneio de Beach Tennis 13",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-02-21",
+    "id": "d78615aa-d91a-4495-93e0-35f929bf8276",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-12-12",
+    "dataFim": "2025-12-15",
+    "dataLimiteInscricao": "2025-12-07",
     "status": "Torneio encerrado",
-    "cidade": "Santos",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 2
+      },
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 7
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 9,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "d3a407af-1d70-4b9c-8be9-80ea33a51fcf",
-    "titulo": "Torneio de Beach Tennis 14",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-25",
+    "id": "730dd9c4-1e5b-46c8-85d6-dc1ffcd47695",
+    "titulo": "Torneio de Beach Tennis Recife 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-05-25",
+    "dataFim": "2025-05-28",
+    "dataLimiteInscricao": "2025-05-20",
     "status": "Torneio em andamento",
-    "cidade": "Torres",
-    "estado": "RS",
-    "organizador_id": "1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c8e88",
-    "organizador_nome": "Patrícia Lima"
+    "local": {
+      "cidade": "Recife",
+      "estado": "PE",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 8
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 120.0,
+      "totalInscritos": 8,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "d5b82914-6190-42cf-92e4-89c7af12a86f",
-    "titulo": "Torneio de Beach Tennis 15",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-01-25",
-    "status": "Torneio encerrado",
-    "cidade": "Fortaleza",
-    "estado": "CE",
-    "organizador_id": "d9e6a1b2-5c8f-4d3a-9b7e-1f2c6a4e5d44",
-    "organizador_nome": "Camila Rocha"
-  },
-  {
-    "id": "fb3f42c6-5717-41b1-b2c1-e1f8754dc4ec",
-    "titulo": "Torneio de Beach Tennis 16",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-06-30",
-    "status": "Torneio em andamento",
-    "cidade": "Santos",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
-  },
-  {
-    "id": "7636b040-6a6f-4fbc-ab3b-d563154f5301",
-    "titulo": "Torneio de Beach Tennis 17",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-03-16",
+    "id": "b27dc51a-82af-4a77-85ad-d01585c95451",
+    "titulo": "Torneio de Beach Tennis Curitiba 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-02-11",
+    "dataFim": "2025-02-12",
+    "dataLimiteInscricao": "2025-02-06",
     "status": "Inscrições abertas",
-    "cidade": "Vitória",
-    "estado": "ES",
-    "organizador_id": "f2d4a8c9-7e5b-4a6d-9c1f-3b8e2a5d6c66",
-    "organizador_nome": "Juliana Pacheco"
+    "local": {
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 5
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 2
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 4
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 11,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 1500.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "ad4ae4aa-dad0-49d9-815e-2c1a4c696d8f",
-    "titulo": "Torneio de Beach Tennis 18",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-03-10",
+    "id": "e7ea1b92-ef5a-4b7c-892c-191ce0a97fd1",
+    "titulo": "Torneio de Beach Tennis Recife 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-09-09",
+    "dataFim": "2025-09-10",
+    "dataLimiteInscricao": "2025-09-04",
     "status": "Torneio em andamento",
-    "cidade": "Florianópolis",
-    "estado": "SC",
-    "organizador_id": "c4a8d3e6-2f9b-4a1d-b7e4-9c2a6f5d8e33",
-    "organizador_nome": "Rafael Costa"
+    "local": {
+      "cidade": "Recife",
+      "estado": "PE",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 16
+      },
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 1
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 0
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 120.0,
+      "totalInscritos": 17,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 2000.0
+    }
   },
   {
-    "id": "f8accbdd-1a52-4eb7-920c-6dc53cbe7e33",
-    "titulo": "Torneio de Beach Tennis 19",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-02-24",
+    "id": "c442cc3d-8995-4ed8-9850-280353a1e315",
+    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-11-19",
+    "dataFim": "2025-11-20",
+    "dataLimiteInscricao": "2025-11-14",
     "status": "Torneio encerrado",
-    "cidade": "São Paulo",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
+    "local": {
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
+      "nome": "Pedro Gomes"
+    },
+    "categorias": [
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 24
+      },
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 10
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 34,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 1000.0
+    }
   },
   {
-    "id": "b1d3ee18-7327-4de1-a17f-e6b5fc01e5bc",
-    "titulo": "Torneio de Beach Tennis 20",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-07-12",
-    "status": "Torneio em andamento",
-    "cidade": "Fortaleza",
-    "estado": "CE",
-    "organizador_id": "d9e6a1b2-5c8f-4d3a-9b7e-1f2c6a4e5d44",
-    "organizador_nome": "Camila Rocha"
-  },
-  {
-    "id": "ebd110f0-59bc-49a9-9030-f8feeba2d133",
-    "titulo": "Torneio de Beach Tennis 21",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-02",
-    "status": "Torneio em andamento",
-    "cidade": "Vitória",
-    "estado": "ES",
-    "organizador_id": "f2d4a8c9-7e5b-4a6d-9c1f-3b8e2a5d6c66",
-    "organizador_nome": "Juliana Pacheco"
-  },
-  {
-    "id": "15ba6a25-8981-4308-8ecc-89c3ff8ce448",
-    "titulo": "Torneio de Beach Tennis 22",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-03-29",
-    "status": "Torneio encerrado",
-    "cidade": "Aracaju",
-    "estado": "SE",
-    "organizador_id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6a10",
-    "organizador_nome": "Renata Souza"
-  },
-  {
-    "id": "bd7d12f8-acd6-4b1a-8091-028f331c4b55",
-    "titulo": "Torneio de Beach Tennis 23",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-05-04",
-    "status": "Torneio em andamento",
-    "cidade": "Ilhabela",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
-  },
-  {
-    "id": "7dfae26c-98cf-4806-b249-1277a779d5f5",
-    "titulo": "Torneio de Beach Tennis 24",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-07-11",
-    "status": "Torneio em andamento",
-    "cidade": "Recife",
-    "estado": "PE",
-    "organizador_id": "e1f7c9a2-8d5b-4e3c-9a6f-2b4d7e8c5a55",
-    "organizador_nome": "Bruno Martins"
-  },
-  {
-    "id": "e2d0bcc3-e4c0-4990-833d-696c3fc9b343",
-    "titulo": "Torneio de Beach Tennis 25",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-06-26",
+    "id": "2b274d14-82eb-499a-8c41-18ac06e4619f",
+    "titulo": "Torneio de Beach Tennis Belo Horizonte 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-06-16",
+    "dataFim": "2025-06-19",
+    "dataLimiteInscricao": "2025-06-11",
     "status": "Inscrições abertas",
-    "cidade": "Ilhabela",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
+    "local": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "84510dd1-0363-42a5-899c-d4bbde3c2cc3",
+      "nome": "Pedro Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 22
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 180.0,
+      "totalInscritos": 22,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 1500.0,
+      "terceiroLugar": 2000.0
+    }
   },
   {
-    "id": "d5048e8f-d7f6-4845-93a1-1728eac18452",
-    "titulo": "Torneio de Beach Tennis 26",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-02-06",
+    "id": "5237764e-9b0e-4af6-a1f0-cf261666de64",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-09-16",
+    "dataFim": "2025-09-19",
+    "dataLimiteInscricao": "2025-09-11",
     "status": "Inscrições abertas",
-    "cidade": "Recife",
-    "estado": "PE",
-    "organizador_id": "e1f7c9a2-8d5b-4e3c-9a6f-2b4d7e8c5a55",
-    "organizador_nome": "Bruno Martins"
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 32
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 5
+      },
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 19
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 120.0,
+      "totalInscritos": 56,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "9845ecc4-b4d9-4c14-9715-a07a1886762c",
-    "titulo": "Torneio de Beach Tennis 27",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-05-07",
+    "id": "e1f70749-5670-4c58-b583-3e3393ade252",
+    "titulo": "Torneio de Beach Tennis Salvador 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-03-22",
+    "dataFim": "2025-03-24",
+    "dataLimiteInscricao": "2025-03-17",
     "status": "Torneio em andamento",
-    "cidade": "Florianópolis",
-    "estado": "SC",
-    "organizador_id": "c4a8d3e6-2f9b-4a1d-b7e4-9c2a6f5d8e33",
-    "organizador_nome": "Rafael Costa"
+    "local": {
+      "cidade": "Salvador",
+      "estado": "BA",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
+      "nome": "Lucas Ferreira"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 10
+      },
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 3
+      },
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 13
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 26,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "fa52a80b-658e-4393-9164-4e53826f6260",
-    "titulo": "Torneio de Beach Tennis 28",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-07-26",
+    "id": "75fced50-642d-45e0-9af6-5dcbd59cb181",
+    "titulo": "Torneio de Beach Tennis Belo Horizonte 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-01-04",
+    "dataFim": "2025-01-05",
+    "dataLimiteInscricao": "2024-12-30",
     "status": "Inscrições abertas",
-    "cidade": "São Luís",
-    "estado": "MA",
-    "organizador_id": "b7f0e2a1-1c9a-4e2d-8f65-2b6e9c4a7f22",
-    "organizador_nome": "Mariana Alves"
+    "local": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 3
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 16
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 12
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 31,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 5000.0,
+      "segundoLugar": 1500.0,
+      "terceiroLugar": 1000.0
+    }
   },
   {
-    "id": "f4a53276-42a3-4411-821e-10fef72e008f",
-    "titulo": "Torneio de Beach Tennis 29",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-08",
-    "status": "Torneio em andamento",
-    "cidade": "Balneário Camboriú",
-    "estado": "SC",
-    "organizador_id": "c4a8d3e6-2f9b-4a1d-b7e4-9c2a6f5d8e33",
-    "organizador_nome": "Rafael Costa"
-  },
-  {
-    "id": "8c4b9e91-b70a-4748-90ad-a0c47e8586ca",
-    "titulo": "Torneio de Beach Tennis 30",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-06-21",
-    "status": "Torneio em andamento",
-    "cidade": "Rio de Janeiro",
-    "estado": "RJ",
-    "organizador_id": "b7f0e2a1-1c9a-4e2d-8f65-2b6e9c4a7f22",
-    "organizador_nome": "Mariana Alves"
-  },
-  {
-    "id": "d66159f0-d0ba-4d4f-b6f9-3473b28cd429",
-    "titulo": "Torneio de Beach Tennis 31",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-10-13",
+    "id": "68fe51ff-477e-43f6-ba4a-9a89dc4dd0e9",
+    "titulo": "Torneio de Beach Tennis Fortaleza 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-09-20",
+    "dataFim": "2025-09-23",
+    "dataLimiteInscricao": "2025-09-15",
     "status": "Torneio encerrado",
-    "cidade": "Natal",
-    "estado": "RN",
-    "organizador_id": "e1f7c9a2-8d5b-4e3c-9a6f-2b4d7e8c5a55",
-    "organizador_nome": "Bruno Martins"
+    "local": {
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 10
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 10,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 1000.0
+    }
   },
   {
-    "id": "c38a9a0e-5c4e-4ddf-b87d-bec95166669d",
-    "titulo": "Torneio de Beach Tennis 32",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-06-10",
+    "id": "c479c797-e99c-4256-bfe0-692c74a73ffe",
+    "titulo": "Torneio de Beach Tennis Curitiba 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-10-24",
+    "dataFim": "2025-10-25",
+    "dataLimiteInscricao": "2025-10-19",
+    "status": "Torneio encerrado",
+    "local": {
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 19
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 19,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 800.0
+    }
+  },
+  {
+    "id": "5102d169-228f-4d42-9a3c-a6cbf3c7cdda",
+    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-11-04",
+    "dataFim": "2025-11-05",
+    "dataLimiteInscricao": "2025-10-30",
+    "status": "Torneio encerrado",
+    "local": {
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 3
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 4
+      },
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 1
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 8,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 2000.0
+    }
+  },
+  {
+    "id": "46cc244a-7cd8-408b-b6f6-0c52973382c5",
+    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-08-03",
+    "dataFim": "2025-08-06",
+    "dataLimiteInscricao": "2025-07-29",
     "status": "Torneio em andamento",
-    "cidade": "Vitória",
-    "estado": "ES",
-    "organizador_id": "f2d4a8c9-7e5b-4a6d-9c1f-3b8e2a5d6c66",
-    "organizador_nome": "Juliana Pacheco"
+    "local": {
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 28
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 28,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 5000.0,
+      "segundoLugar": 1500.0,
+      "terceiroLugar": 800.0
+    }
   },
   {
-    "id": "6666b3dc-b1fe-4813-969c-6c3d2184f1d2",
-    "titulo": "Torneio de Beach Tennis 33",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-09-14",
+    "id": "38f053a2-777b-4336-965e-4979bb6d3b43",
+    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-02-19",
+    "dataFim": "2025-02-21",
+    "dataLimiteInscricao": "2025-02-14",
     "status": "Torneio encerrado",
-    "cidade": "Fortaleza",
-    "estado": "CE",
-    "organizador_id": "d9e6a1b2-5c8f-4d3a-9b7e-1f2c6a4e5d44",
-    "organizador_nome": "Camila Rocha"
+    "local": {
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 30
+      },
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 21
+      },
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 1
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 120.0,
+      "totalInscritos": 52,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 1000.0
+    }
   },
   {
-    "id": "57686e15-76d7-4827-a1b0-019c9543ec7f",
-    "titulo": "Torneio de Beach Tennis 34",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-04-16",
-    "status": "Torneio encerrado",
-    "cidade": "Maceió",
-    "estado": "AL",
-    "organizador_id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6a10",
-    "organizador_nome": "Renata Souza"
+    "id": "2b00500c-239f-4661-a903-efae60b371d5",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-01-21",
+    "dataFim": "2025-01-22",
+    "dataLimiteInscricao": "2025-01-16",
+    "status": "Torneio em andamento",
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 19
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 5
+      },
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 23
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 47,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 2000.0
+    }
   },
   {
-    "id": "9e8b81ba-8d02-4ea9-83f5-bb08190bb390",
-    "titulo": "Torneio de Beach Tennis 35",
-    "url_imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "data": "2025-08-12",
+    "id": "69e08290-4529-4b1b-9a16-ee60e6e48c0c",
+    "titulo": "Torneio de Beach Tennis São Paulo 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-05-19",
+    "dataFim": "2025-05-21",
+    "dataLimiteInscricao": "2025-05-14",
+    "status": "Torneio em andamento",
+    "local": {
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
+      "nome": "Pedro Gomes"
+    },
+    "categorias": [
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 19
+      },
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 27
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 120.0,
+      "totalInscritos": 46,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 800.0
+    }
+  },
+  {
+    "id": "16795076-1fe0-4745-ba2e-cf33b992c184",
+    "titulo": "Torneio de Beach Tennis Rio de Janeiro 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-10-14",
+    "dataFim": "2025-10-15",
+    "dataLimiteInscricao": "2025-10-09",
     "status": "Inscrições abertas",
-    "cidade": "Ubatuba",
-    "estado": "SP",
-    "organizador_id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-    "organizador_nome": "Lucas Ferreira"
+    "local": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 23
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 31
+      },
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 13
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 67,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 1500.0,
+      "terceiroLugar": 2000.0
+    }
+  },
+  {
+    "id": "f0edd74f-6c5e-43c0-9fb5-e2a20d732d9c",
+    "titulo": "Torneio de Beach Tennis Porto Alegre 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-01-14",
+    "dataFim": "2025-01-16",
+    "dataLimiteInscricao": "2025-01-09",
+    "status": "Inscrições abertas",
+    "local": {
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Feminino",
+        "nivel": "Profissional",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 32
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 32,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 1000.0
+    }
+  },
+  {
+    "id": "63dda872-668f-468e-8ec3-a9364b1242f5",
+    "titulo": "Torneio de Beach Tennis Recife 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-07-24",
+    "dataFim": "2025-07-25",
+    "dataLimiteInscricao": "2025-07-19",
+    "status": "Inscrições abertas",
+    "local": {
+      "cidade": "Recife",
+      "estado": "PE",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
+      "nome": "Lucas Ferreira"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 6
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 6,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 5000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 2000.0
+    }
+  },
+  {
+    "id": "27ee060b-6681-4176-993b-18f2d7e5aa08",
+    "titulo": "Torneio de Beach Tennis Salvador 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-06-18",
+    "dataFim": "2025-06-20",
+    "dataLimiteInscricao": "2025-06-13",
+    "status": "Inscrições abertas",
+    "local": {
+      "cidade": "Salvador",
+      "estado": "BA",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
+      "nome": "Daniela Santos"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 10
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 10,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 5000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 2000.0
+    }
+  },
+  {
+    "id": "838da8dd-9462-4476-8925-e3facb73b418",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-11-12",
+    "dataFim": "2025-11-14",
+    "dataLimiteInscricao": "2025-11-07",
+    "status": "Torneio encerrado",
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
+      "nome": "Pedro Gomes"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 31
+      },
+      {
+        "nome": "Masculino A",
+        "nivel": "Avançado",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 12
+      },
+      {
+        "nome": "Misto B",
+        "nivel": "Intermediário",
+        "vagasTotal": 24,
+        "vagasPreenchidas": 17
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 60,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 8000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 800.0
+    }
+  },
+  {
+    "id": "0f985996-62a4-4337-ba10-ff4238026f1c",
+    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-11-17",
+    "dataFim": "2025-11-18",
+    "dataLimiteInscricao": "2025-11-12",
+    "status": "Torneio em andamento",
+    "local": {
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
+      "nome": "Carlos Ribeiro"
+    },
+    "categorias": [
+      {
+        "nome": "Open Masculino",
+        "nivel": "Profissional",
+        "vagasTotal": 16,
+        "vagasPreenchidas": 3
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 150.0,
+      "totalInscritos": 3,
+      "statusInscricoes": "abertas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 4000.0,
+      "terceiroLugar": 1000.0
+    }
+  },
+  {
+    "id": "3d747036-049b-4575-914e-a5e809bea8ae",
+    "titulo": "Torneio de Beach Tennis Rio de Janeiro 2025",
+    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
+    "dataInicio": "2025-05-07",
+    "dataFim": "2025-05-10",
+    "dataLimiteInscricao": "2025-05-02",
+    "status": "Torneio encerrado",
+    "local": {
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "endereco": "Arena Central de Beach Tennis"
+    },
+    "organizador": {
+      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
+      "nome": "Pedro Gomes"
+    },
+    "categorias": [
+      {
+        "nome": "Feminino A",
+        "nivel": "Avançado",
+        "vagasTotal": 32,
+        "vagasPreenchidas": 20
+      }
+    ],
+    "inscricoes": {
+      "valorInscricao": 200.0,
+      "totalInscritos": 20,
+      "statusInscricoes": "encerradas"
+    },
+    "premiacao": {
+      "primeiroLugar": 3000.0,
+      "segundoLugar": 2500.0,
+      "terceiroLugar": 800.0
+    }
   }
 ]

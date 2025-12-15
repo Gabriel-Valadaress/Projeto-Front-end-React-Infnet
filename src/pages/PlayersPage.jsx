@@ -1,5 +1,5 @@
 import Navigation from "../components/Navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { styled } from "styled-components";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -20,9 +20,7 @@ const SummaryTable = styled.table`
 `;
 
 const SummaryThead = styled.thead``;
-
 const SummaryTbody = styled.tbody``;
-
 
 const SummaryTh = styled.th`
   text-align: left;
@@ -50,6 +48,10 @@ const SummaryTd = styled.td`
 const SummaryTr = styled.tr`
   border-bottom: none;
   cursor: pointer;
+  
+  &:hover {
+    background: #f0f2f5;
+  }
 `;
 
 const FilterContainer = styled.div`
@@ -89,7 +91,7 @@ const Label = styled.label`
   margin-top: 5px;
 
   @media (min-width: 576px){
-        font-size: 18px;
+    font-size: 18px;
   }
 `;
 
@@ -101,32 +103,57 @@ const LabelInputContainer = styled.div`
   width: 100%;
 `;
 
-export default function PlayersPage() {
+const LoadingMessage = styled.p`
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+`;
 
+const ErrorMessage = styled.p`
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #d32f2f;
+`;
+
+export default function PlayersPage() {
   const [filterNome, setFilterNome] = useState("");
   const [filterEstado, setFilterEstado] = useState("");
   const [filterCidade, setFilterCidade] = useState("");
   const [players, setPlayers] = useState([]);
-
-  function getPlayers() {
-    const response = axios.get("api/jogadores.json");
-    response.then((result) => {
-      setPlayers(result.data);
-    });
-    response.catch(() => { })
-  }
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  
+  const navigate = useNavigate();
 
   useEffect(() => {
+    async function getPlayers() {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await axios.get("/api/usuarios.json");
+        
+        const jogadores = response.data.filter(u => u.tipo === 'jogador');
+        setPlayers(jogadores);
+      } catch (err) {
+        setError('Não foi possível carregar a lista de jogadores');
+      } finally {
+        setLoading(false);
+      }
+    }
+
     getPlayers();
   }, []);
 
-  const filteredPlayers = players.filter((p) =>
-    p.nome.toLowerCase().includes(filterNome.toLowerCase()) &&
-    p.estado.toLowerCase().includes(filterEstado.toLowerCase()) &&
-    p.cidade.toLowerCase().includes(filterCidade.toLowerCase())
+  const filteredPlayers = useMemo(() => 
+    players.filter((p) =>
+      p.nome.toLowerCase().includes(filterNome.toLowerCase()) &&
+      p.endereco.estado.toLowerCase().includes(filterEstado.toLowerCase()) &&
+      p.endereco.cidade.toLowerCase().includes(filterCidade.toLowerCase())
+    ),
+    [players, filterNome, filterEstado, filterCidade]
   );
-
-  const navigate = useNavigate();
 
   function goToProfile(id) {
     navigate(`/perfil/${id}`);
@@ -135,55 +162,93 @@ export default function PlayersPage() {
   return (
     <div>
       <Navigation />
+      
       <FilterContainer>
         <LabelInputContainer>
-          <Label>Nome</Label>
+          <Label htmlFor="nome">Nome</Label>
           <Input
+            id="nome"
             type="text"
             value={filterNome}
             onChange={(e) => setFilterNome(e.target.value)}
+            placeholder="Buscar por nome..."
+            aria-label="Filtrar jogadores por nome"
           />
         </LabelInputContainer>
+        
         <LabelInputContainer>
-          <Label>Estado</Label>
+          <Label htmlFor="estado">Estado</Label>
           <Input
+            id="estado"
             type="text"
             value={filterEstado}
             onChange={(e) => setFilterEstado(e.target.value)}
+            placeholder="Ex: SP"
+            aria-label="Filtrar jogadores por estado"
           />
         </LabelInputContainer>
+        
         <LabelInputContainer>
-          <Label>Cidade</Label>
+          <Label htmlFor="cidade">Cidade</Label>
           <Input
+            id="cidade"
             type="text"
             value={filterCidade}
             onChange={(e) => setFilterCidade(e.target.value)}
+            placeholder="Buscar por cidade..."
+            aria-label="Filtrar jogadores por cidade"
           />
         </LabelInputContainer>
       </FilterContainer>
 
-      <SummaryTable>
-        <SummaryThead>
-          <SummaryTr>
-            <SummaryTh>Img</SummaryTh> 
-            <SummaryTh>Nome</SummaryTh>
-            <SummaryTh>Estado</SummaryTh>
-            <SummaryTh>Cidade</SummaryTh>
-          </SummaryTr>
-        </SummaryThead>
-
-        <SummaryTbody>
-          {filteredPlayers.map((player, index) => (
-            <SummaryTr key={index} onClick={() => goToProfile(player.id)}>
-              <SummaryTd><img src={player.urlImagem} alt={player.nome} /></SummaryTd>
-              <SummaryTd>{player.nome}</SummaryTd>
-              <SummaryTd>{player.estado}</SummaryTd>
-              <SummaryTd>{player.cidade}</SummaryTd>
+      {loading && <LoadingMessage>Carregando jogadores...</LoadingMessage>}
+      
+      {error && <ErrorMessage>{error}</ErrorMessage>}
+      
+      {!loading && !error && (
+        <SummaryTable>
+          <SummaryThead>
+            <SummaryTr>
+              <SummaryTh>Imagem</SummaryTh> 
+              <SummaryTh>Nome</SummaryTh>
+              <SummaryTh>Estado</SummaryTh>
+              <SummaryTh>Cidade</SummaryTh>
             </SummaryTr>
-          ))}
-        </SummaryTbody>
-      </SummaryTable>
+          </SummaryThead>
 
+          <SummaryTbody>
+            {filteredPlayers.length === 0 ? (
+              <SummaryTr>
+                <SummaryTd colSpan="4" style={{ textAlign: 'center' }}>
+                  Nenhum jogador encontrado
+                </SummaryTd>
+              </SummaryTr>
+            ) : (
+              filteredPlayers.map((player) => (
+                <SummaryTr 
+                  key={player.id} 
+                  onClick={() => goToProfile(player.id)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter') goToProfile(player.id);
+                  }}
+                >
+                  <SummaryTd>
+                    <img 
+                      src={player.urlImagem} 
+                      alt={`Foto de ${player.nome}`} 
+                    />
+                  </SummaryTd>
+                  <SummaryTd>{player.nome}</SummaryTd>
+                  <SummaryTd>{player.endereco.estado}</SummaryTd>
+                  <SummaryTd>{player.endereco.cidade}</SummaryTd>
+                </SummaryTr>
+              ))
+            )}
+          </SummaryTbody>
+        </SummaryTable>
+      )}
     </div>
   );
 }

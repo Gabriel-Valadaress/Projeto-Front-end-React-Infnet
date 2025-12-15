@@ -3,12 +3,20 @@
         "nome": "Anakin Skywalker (Darth Vader)",
         "urlImagem": "https://www.globalo.com/content/uploads/2015/12/darth-vader.jpg",
         "dataNascimento": "01/01/1984",
-        "partidas": 50,
-        "vitorias": 25,
+        "estatisticas": {
+            "partidas": 50,
+            "vitorias": 25,
+            "derrotas": 25,
+            "percentualVitorias": 50
+        },
         "celular": "(51) 98765-4321",
-        "altura": 1.98,
-        "maoDominante": "Direita",
-        "estado": "Região dos Huts",
-        "cidade": "Mos Espa"
+        "detalhesJogador": {
+            "altura": 1.98,
+            "maoDominante": "Direita"
+        },
+        "endereco": {
+            "estado": "Região dos Huts",
+            "cidade": "Mos Espa"
+        }
     }
 ]

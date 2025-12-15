@@ -244,12 +244,17 @@ const Value = styled.div`
 export default function ProfilePage() {
 
     const { id } = useParams();
-    const [profile, setProfile] = useState({});
+    const [profile, setProfile] = useState({
+        estatisticas: {},
+        detalhesJogador: {},
+        endereco: {}
+    });
+
 
     function getProfile() {
         let response;
         if (id) {
-            response = axios.get("/api/jogadores.json");
+            response = axios.get("/api/usuarios.json");
             response.then((result) => {
                 const players = result.data;
                 const found = players.find(p => String(p.id) === String(id));
@@ -278,26 +283,38 @@ export default function ProfilePage() {
             <Navigation />
             <Container>
                 <TitleCard>
-                    <ProfilePicture src={profile.urlImagem} alt={`Foto do ${profile.nome}`} />
+                    <ProfilePicture
+                        src={profile.urlImagem || "/default-user-image.png"}
+                        alt={`Foto do ${profile.nome || "usuário"}`}
+                    />
+
                     <TitleText>
                         <TitleName>{profile.nome}</TitleName>
-                        <p>{new Date().getFullYear() - new Date(profile.dataNascimento).getFullYear()} anos</p>
+                        <p>
+                            {profile.dataNascimento
+                                ? new Date().getFullYear() - new Date(profile.dataNascimento).getFullYear()
+                                : "--"} anos
+                        </p>
+
                     </TitleText>
                 </TitleCard>
-
                 <ResultsSummary>
                     <SummaryTitle>Estatísticas gerais</SummaryTitle>
                     <SummaryTable>
-                        <SummaryTr>
-                            <SummaryTh>Partidas</SummaryTh>
-                            <SummaryTh>Vitórias</SummaryTh>
-                            <SummaryTh>Aproveitamento</SummaryTh>
-                        </SummaryTr>
-                        <SummaryTr>
-                            <SummaryTd>{profile.partidas}</SummaryTd>
-                            <SummaryTd>{profile.vitorias}</SummaryTd>
-                            <SummaryTd>{((profile.vitorias / profile.partidas) * 100).toFixed(2)}%</SummaryTd>
-                        </SummaryTr>
+                        <thead>
+                            <SummaryTr>
+                                <SummaryTh>Partidas</SummaryTh>
+                                <SummaryTh>Vitórias</SummaryTh>
+                                <SummaryTh>Aproveitamento</SummaryTh>
+                            </SummaryTr>
+                        </thead>
+                        <tbody>
+                            <SummaryTr>
+                                <SummaryTd>{profile.estatisticas?.partidas}</SummaryTd>
+                                <SummaryTd>{profile.estatisticas?.vitorias}</SummaryTd>
+                                <SummaryTd>{profile.estatisticas?.percentualVitorias}%</SummaryTd>
+                            </SummaryTr>
+                        </tbody>
                     </SummaryTable>
                 </ResultsSummary>
 
@@ -325,22 +342,22 @@ export default function ProfilePage() {
 
                         <InfoItem>
                             <Label>Altura</Label>
-                            <Value>{profile.altura} m</Value>
+                            <Value>{profile.detalhesJogador?.altura} m</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Mão Dominante</Label>
-                            <Value>{profile.maoDominante}</Value>
+                            <Value>{profile.detalhesJogador?.maoDominante}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Estado</Label>
-                            <Value>{profile.estado}</Value>
+                            <Value>{profile.endereco?.estado}</Value>
                         </InfoItem>
 
                         <InfoItem>
                             <Label>Cidade</Label>
-                            <Value>{profile.cidade}</Value>
+                            <Value>{profile.endereco?.cidade}</Value>
                         </InfoItem>
                     </ProfileCard>
                 </InfosContainer>

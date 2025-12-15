@@ -52,12 +52,12 @@ export default function TournamentInfoPage() {
         <>
             <Navigation />
             <TournamentInfoPageContainer>
-                <img src={tournament.url_imagem} alt={tournament.titulo} />
+                <img src={tournament.urlImagem} alt={tournament.titulo} />
                 <TitleName>{tournament.titulo}</TitleName>
-                <p><strong>Cidade: </strong>{tournament.cidade}</p>
-                <p><strong>Estado: </strong>{tournament.estado}</p>
-                <p><strong>Data: </strong>{tournament.data}</p>
-                <p><strong>Organizador: </strong>{tournament.organizador_nome}</p>
+                <p><strong>Data início: </strong>{tournament.dataInicio}</p>
+                <p><strong>Data fim: </strong>{tournament.dataFim}</p>
+                <p><strong>Endereço: </strong>{tournament.local.endereco} - {tournament.local.cidade} / {tournament.local.estado}</p>
+                <p><strong>Organizador: </strong>{tournament.organizador.nome}</p>
             </TournamentInfoPageContainer>
         </>
     );
