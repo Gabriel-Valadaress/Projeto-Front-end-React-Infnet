@@ -10,11 +10,18 @@ const NavBar = styled.nav`
     height: 50px;
     position: fixed;
     bottom: 0;
-    border: 1px solid rgba(0,0,0,0.4);
+    border: 1px solid ${({ mode }) => (mode === "dark" ? "#333" : "rgba(0,0,0,0.1)")};
     background-color: white;
 
     & h1 {
-        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 13px 0;
+        width: 100%;
+        border: 1px solid ${({ mode }) => (mode === "dark" ? "#333" : "rgba(0,0,0,0.1)")};
+        background-color: white;
+        text-align: center;
     }
 
     @media (min-width: 576px){
@@ -26,11 +33,15 @@ const NavBar = styled.nav`
     top: 0;
     bottom: auto;
     border-top: none;
-    border-bottom: 1px solid ${({ mode }) => (mode === "dark" ? "#333" : "rgba(0,0,0,0.1)")};
 
     & h1 {
+        position: relative;
         display: block;
-        padding-right: 15vw;
+        padding: 0 15vw 0 0;
+        border: none;
+        width: auto;
+        height: auto;
+        background-color: tranparent;
     }
   }
 `;

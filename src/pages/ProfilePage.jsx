@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation";
+import { TitleNormal, TitleWithBorder } from "../components/CommonComponents";
 
 import { Link, useParams } from "react-router-dom";
 import { styled } from "styled-components";
@@ -60,6 +61,10 @@ const TitleText = styled.div`
     justify-content: center;
     align-items: flex-end;
 
+    & h2 {
+        text-align: end;
+    }
+
     & p {
         font-size: 16px;
     }
@@ -77,45 +82,12 @@ const TitleText = styled.div`
     }
 `;
 
-const TitleName = styled.h2`
-    max-width: calc(100vw - 100px - 50px);
-    text-align: end;
-    font-size: 26px;
-
-    @media (min-width: 576px){
-        font-size: 30px;
-    }
-
-    @media (min-width: 768px){
-        font-size: 32px;
-    }
-`;
-
 const ResultsSummary = styled.section`
     display: flex;
     flex-direction: column;
     gap: 16px;
     border-radius: 16px;
     width: 100%;
-`;
-
-
-const SummaryTitle = styled.h2`
-    font-size: 20px;
-    font-weight: 700;
-    color: #000000;
-    border-left: 4px solid #4a90e2;
-    padding-left: 12px;
-
-    @media (min-width: 576px){
-        font-size: 30px;
-        border-left: 5px solid #4a90e2;
-    }
-
-    @media (min-width: 768px){
-        font-size: 32px;
-        border-left: 6px solid #4a90e2;
-    }
 `;
 
 const SummaryTable = styled.table`
@@ -167,22 +139,6 @@ const InfosHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-`;
-
-const Title = styled.h2`
-    font-size: 20px;
-    border-left: 4px solid #4a90e2;
-    padding-left: 12px;
-
-    @media (min-width: 576px){
-        font-size: 30px;
-        border-left: 5px solid #4a90e2;
-    }
-
-    @media (min-width: 768px){
-        font-size: 32px;
-        border-left: 6px solid #4a90e2;
-    }
 `;
 
 const EditInfo = styled(Link)`
@@ -289,7 +245,7 @@ export default function ProfilePage() {
                     />
 
                     <TitleText>
-                        <TitleName>{profile.nome}</TitleName>
+                        <TitleNormal>{profile.nome}</TitleNormal>
                         <p>
                             {profile.dataNascimento
                                 ? new Date().getFullYear() - new Date(profile.dataNascimento).getFullYear()
@@ -299,7 +255,7 @@ export default function ProfilePage() {
                     </TitleText>
                 </TitleCard>
                 <ResultsSummary>
-                    <SummaryTitle>Estatísticas gerais</SummaryTitle>
+                    <TitleWithBorder>Estatísticas gerais</TitleWithBorder>
                     <SummaryTable>
                         <thead>
                             <SummaryTr>
@@ -320,7 +276,7 @@ export default function ProfilePage() {
 
                 <InfosContainer>
                     <InfosHeader>
-                        <Title>Detalhes do Perfil</Title>
+                        <TitleWithBorder>Detalhes do Perfil</TitleWithBorder>
                         <EditInfo to="/">Editar</EditInfo>
                     </InfosHeader>
 

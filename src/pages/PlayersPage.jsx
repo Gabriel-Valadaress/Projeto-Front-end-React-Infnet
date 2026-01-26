@@ -1,4 +1,6 @@
 import Navigation from "../components/Navigation";
+import { SmallRoundedImage } from "../components/CommonComponents";
+
 import { useState, useEffect, useMemo } from "react";
 import { styled } from "styled-components";
 import axios from "axios";
@@ -36,13 +38,6 @@ const SummaryTd = styled.td`
   color: #000000;
   border-bottom: 1px solid #eceff2;
   background: #fafbfc;
-
-  & img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
 `;
 
 const SummaryTr = styled.tr`
@@ -235,7 +230,7 @@ export default function PlayersPage() {
                   }}
                 >
                   <SummaryTd>
-                    <img 
+                    <SmallRoundedImage 
                       src={player.urlImagem} 
                       alt={`Foto de ${player.nome}`} 
                     />

@@ -17,35 +17,40 @@
       "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
       "nome": "Daniela Santos"
     },
-    "categorias": [
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 4
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 3
-      },
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 13
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 4,
+          "idsInscritos": ["f001", "f002", "f003", "f004"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 3,
+          "idsInscritos": ["m001", "m002", "m003"]
+        }
+      ],
+      "misto": [
+        {
+          "nome": "Misto B",
+          "nivel": "Intermediário",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 13,
+          "idsInscritos": ["mx001", "mx002", "mx003", "mx004", "mx005", "mx006", "mx007", "mx008", "mx009", "mx010", "mx011", "mx012", "mx013"]
+        }
+      ]
+    },
     "inscricoes": {
       "valorInscricao": 180.0,
       "totalInscritos": 20,
       "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 2000.0
     }
   },
   {
@@ -66,29 +71,32 @@
       "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
       "nome": "Carlos Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 2
-      },
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 19
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 19,
+          "idsInscritos": ["f005", "f006", "f007", "f008", "f009", "f010", "f011", "f012", "f013", "f014", "f015", "f016", "f017", "f018", "f019", "f020", "f021", "f022", "f023"]
+        }
+      ],
+      "masculino": [],
+      "misto": [
+        {
+          "nome": "Misto B",
+          "nivel": "Intermediário",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 2,
+          "idsInscritos": ["mx014", "mx015"]
+        }
+      ]
+    },
     "inscricoes": {
       "valorInscricao": 200.0,
       "totalInscritos": 21,
       "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 5000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 1000.0
     }
   },
   {
@@ -109,29 +117,32 @@
       "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
       "nome": "Carlos Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 2
-      },
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 7
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Feminino A",
+          "nivel": "Avançado",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 7,
+          "idsInscritos": ["f024", "f025", "f026", "f027", "f028", "f029", "f030"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 2,
+          "idsInscritos": ["m004", "m005"]
+        }
+      ],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 150.0,
       "totalInscritos": 9,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 800.0
     }
   },
   {
@@ -152,23 +163,24 @@
       "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
       "nome": "Carlos Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 8
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 8,
+          "idsInscritos": ["f031", "f032", "f033", "f034", "f035", "f036", "f037", "f038"]
+        }
+      ],
+      "masculino": [],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 120.0,
       "totalInscritos": 8,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 800.0
     }
   },
   {
@@ -189,35 +201,39 @@
       "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
       "nome": "Daniela Santos"
     },
-    "categorias": [
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 5
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 2
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 4
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 5,
+          "idsInscritos": ["f039", "f040", "f041", "f042", "f043"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 2,
+          "idsInscritos": ["m006", "m007"]
+        },
+        {
+          "nome": "Masculino A",
+          "nivel": "Avançado",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 4,
+          "idsInscritos": ["m008", "m009", "m010", "m011"]
+        }
+      ],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 150.0,
       "totalInscritos": 11,
       "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 1500.0,
-      "terceiroLugar": 800.0
     }
   },
   {
@@ -238,35 +254,40 @@
       "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
       "nome": "Carlos Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 16
-      },
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 1
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 0
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 1,
+          "idsInscritos": ["f044"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 0,
+          "idsInscritos": []
+        }
+      ],
+      "misto": [
+        {
+          "nome": "Misto B",
+          "nivel": "Intermediário",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 16,
+          "idsInscritos": ["mx016", "mx017", "mx018", "mx019", "mx020", "mx021", "mx022", "mx023", "mx024", "mx025", "mx026", "mx027", "mx028", "mx029", "mx030", "mx031"]
+        }
+      ]
+    },
     "inscricoes": {
       "valorInscricao": 120.0,
       "totalInscritos": 17,
       "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 2000.0
     }
   },
   {
@@ -287,29 +308,32 @@
       "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
       "nome": "Pedro Gomes"
     },
-    "categorias": [
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 24
-      },
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 10
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Feminino A",
+          "nivel": "Avançado",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 10,
+          "idsInscritos": ["f045", "f046", "f047", "f048", "f049", "f050", "f051", "f052", "f053", "f054"]
+        }
+      ],
+      "masculino": [],
+      "misto": [
+        {
+          "nome": "Misto B",
+          "nivel": "Intermediário",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 24,
+          "idsInscritos": ["mx032", "mx033", "mx034", "mx035", "mx036", "mx037", "mx038", "mx039", "mx040", "mx041", "mx042", "mx043", "mx044", "mx045", "mx046", "mx047", "mx048", "mx049", "mx050", "mx051", "mx052", "mx053", "mx054", "mx055"]
+        }
+      ]
+    },
     "inscricoes": {
       "valorInscricao": 200.0,
       "totalInscritos": 34,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 1000.0
     }
   },
   {
@@ -330,23 +354,24 @@
       "id": "84510dd1-0363-42a5-899c-d4bbde3c2cc3",
       "nome": "Pedro Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 22
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Feminino A",
+          "nivel": "Avançado",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 22,
+          "idsInscritos": ["f055", "f056", "f057", "f058", "f059", "f060", "f061", "f062", "f063", "f064", "f065", "f066", "f067", "f068", "f069", "f070", "f071", "f072", "f073", "f074", "f075", "f076"]
+        }
+      ],
+      "masculino": [],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 180.0,
       "totalInscritos": 22,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 1500.0,
-      "terceiroLugar": 2000.0
     }
   },
   {
@@ -367,35 +392,39 @@
       "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
       "nome": "Carlos Ribeiro"
     },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 32
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 5
-      },
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 19
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Feminino A",
+          "nivel": "Avançado",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 19,
+          "idsInscritos": ["f077", "f078", "f079", "f080", "f081", "f082", "f083", "f084", "f085", "f086", "f087", "f088", "f089", "f090", "f091", "f092", "f093", "f094", "f095"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 32,
+          "idsInscritos": ["m012", "m013", "m014", "m015", "m016", "m017", "m018", "m019", "m020", "m021", "m022", "m023", "m024", "m025", "m026", "m027", "m028", "m029", "m030", "m031", "m032", "m033", "m034", "m035", "m036", "m037", "m038", "m039", "m040", "m041", "m042", "m043"]
+        },
+        {
+          "nome": "Masculino A",
+          "nivel": "Avançado",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 5,
+          "idsInscritos": ["m044", "m045", "m046", "m047", "m048"]
+        }
+      ],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 120.0,
       "totalInscritos": 56,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 800.0
     }
   },
   {
@@ -416,35 +445,39 @@
       "id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
       "nome": "Lucas Ferreira"
     },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 10
-      },
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 3
-      },
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 13
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [
+        {
+          "nome": "Feminino A",
+          "nivel": "Avançado",
+          "vagasTotal": 24,
+          "vagasPreenchidas": 3,
+          "idsInscritos": ["f096", "f097", "f098"]
+        },
+        {
+          "nome": "Open Feminino",
+          "nivel": "Profissional",
+          "vagasTotal": 32,
+          "vagasPreenchidas": 13,
+          "idsInscritos": ["f099", "f100", "f101", "f102", "f103", "f104", "f105", "f106", "f107", "f108", "f109", "f110", "f111"]
+        }
+      ],
+      "masculino": [
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 10,
+          "idsInscritos": ["m049", "m050", "m051", "m052", "m053", "m054", "m055", "m056", "m057", "m058"]
+        }
+      ],
+      "misto": []
+    },
     "inscricoes": {
       "valorInscricao": 150.0,
       "totalInscritos": 26,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 800.0
     }
   },
   {
@@ -465,619 +498,39 @@
       "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
       "nome": "Daniela Santos"
     },
-    "categorias": [
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 3
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 16
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 12
-      }
-    ],
+    "regulamento": "Regulamento conforme normas da CBT (Confederação Brasileira de Tênis). Todos os participantes devem apresentar documento de identidade e comprovante de inscrição. Uso obrigatório de equipamentos de segurança.",
+    "categorias": {
+      "feminino": [],
+      "masculino": [
+        {
+          "nome": "Masculino A",
+          "nivel": "Avançado",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 16,
+          "idsInscritos": ["m059", "m060", "m061", "m062", "m063", "m064", "m065", "m066", "m067", "m068", "m069", "m070", "m071", "m072", "m073", "m074"]
+        },
+        {
+          "nome": "Open Masculino",
+          "nivel": "Profissional",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 12,
+          "idsInscritos": ["m075", "m076", "m077", "m078", "m079", "m080", "m081", "m082", "m083", "m084", "m085", "m086"]
+        }
+      ],
+      "misto": [
+        {
+          "nome": "Misto B",
+          "nivel": "Intermediário",
+          "vagasTotal": 16,
+          "vagasPreenchidas": 3,
+          "idsInscritos": ["mx056", "mx057", "mx058"]
+        }
+      ]
+    },
     "inscricoes": {
       "valorInscricao": 200.0,
       "totalInscritos": 31,
       "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 5000.0,
-      "segundoLugar": 1500.0,
-      "terceiroLugar": 1000.0
-    }
-  },
-  {
-    "id": "68fe51ff-477e-43f6-ba4a-9a89dc4dd0e9",
-    "titulo": "Torneio de Beach Tennis Fortaleza 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-09-20",
-    "dataFim": "2025-09-23",
-    "dataLimiteInscricao": "2025-09-15",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "Fortaleza",
-      "estado": "CE",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
-      "nome": "Daniela Santos"
-    },
-    "categorias": [
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 10
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 10,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 1000.0
-    }
-  },
-  {
-    "id": "c479c797-e99c-4256-bfe0-692c74a73ffe",
-    "titulo": "Torneio de Beach Tennis Curitiba 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-10-24",
-    "dataFim": "2025-10-25",
-    "dataLimiteInscricao": "2025-10-19",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "Curitiba",
-      "estado": "PR",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 19
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 150.0,
-      "totalInscritos": 19,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 800.0
-    }
-  },
-  {
-    "id": "5102d169-228f-4d42-9a3c-a6cbf3c7cdda",
-    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-11-04",
-    "dataFim": "2025-11-05",
-    "dataLimiteInscricao": "2025-10-30",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "João Pessoa",
-      "estado": "PB",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 3
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 4
-      },
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 1
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 8,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 2000.0
-    }
-  },
-  {
-    "id": "46cc244a-7cd8-408b-b6f6-0c52973382c5",
-    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-08-03",
-    "dataFim": "2025-08-06",
-    "dataLimiteInscricao": "2025-07-29",
-    "status": "Torneio em andamento",
-    "local": {
-      "cidade": "João Pessoa",
-      "estado": "PB",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
-      "nome": "Daniela Santos"
-    },
-    "categorias": [
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 28
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 28,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 5000.0,
-      "segundoLugar": 1500.0,
-      "terceiroLugar": 800.0
-    }
-  },
-  {
-    "id": "38f053a2-777b-4336-965e-4979bb6d3b43",
-    "titulo": "Torneio de Beach Tennis João Pessoa 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-02-19",
-    "dataFim": "2025-02-21",
-    "dataLimiteInscricao": "2025-02-14",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "João Pessoa",
-      "estado": "PB",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 30
-      },
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 21
-      },
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 1
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 120.0,
-      "totalInscritos": 52,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 1000.0
-    }
-  },
-  {
-    "id": "2b00500c-239f-4661-a903-efae60b371d5",
-    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-01-21",
-    "dataFim": "2025-01-22",
-    "dataLimiteInscricao": "2025-01-16",
-    "status": "Torneio em andamento",
-    "local": {
-      "cidade": "Florianópolis",
-      "estado": "SC",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 19
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 5
-      },
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 23
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 150.0,
-      "totalInscritos": 47,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 2000.0
-    }
-  },
-  {
-    "id": "69e08290-4529-4b1b-9a16-ee60e6e48c0c",
-    "titulo": "Torneio de Beach Tennis São Paulo 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-05-19",
-    "dataFim": "2025-05-21",
-    "dataLimiteInscricao": "2025-05-14",
-    "status": "Torneio em andamento",
-    "local": {
-      "cidade": "São Paulo",
-      "estado": "SP",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
-      "nome": "Pedro Gomes"
-    },
-    "categorias": [
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 19
-      },
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 27
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 120.0,
-      "totalInscritos": 46,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 800.0
-    }
-  },
-  {
-    "id": "16795076-1fe0-4745-ba2e-cf33b992c184",
-    "titulo": "Torneio de Beach Tennis Rio de Janeiro 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-10-14",
-    "dataFim": "2025-10-15",
-    "dataLimiteInscricao": "2025-10-09",
-    "status": "Inscrições abertas",
-    "local": {
-      "cidade": "Rio de Janeiro",
-      "estado": "RJ",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 23
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 31
-      },
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 13
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 67,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 1500.0,
-      "terceiroLugar": 2000.0
-    }
-  },
-  {
-    "id": "f0edd74f-6c5e-43c0-9fb5-e2a20d732d9c",
-    "titulo": "Torneio de Beach Tennis Porto Alegre 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-01-14",
-    "dataFim": "2025-01-16",
-    "dataLimiteInscricao": "2025-01-09",
-    "status": "Inscrições abertas",
-    "local": {
-      "cidade": "Porto Alegre",
-      "estado": "RS",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Open Feminino",
-        "nivel": "Profissional",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 32
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 150.0,
-      "totalInscritos": 32,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 1000.0
-    }
-  },
-  {
-    "id": "63dda872-668f-468e-8ec3-a9364b1242f5",
-    "titulo": "Torneio de Beach Tennis Recife 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-07-24",
-    "dataFim": "2025-07-25",
-    "dataLimiteInscricao": "2025-07-19",
-    "status": "Inscrições abertas",
-    "local": {
-      "cidade": "Recife",
-      "estado": "PE",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "a3b1c9b4-6c47-4f1a-9e7a-8e4a6c6e3d11",
-      "nome": "Lucas Ferreira"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 6
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 150.0,
-      "totalInscritos": 6,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 5000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 2000.0
-    }
-  },
-  {
-    "id": "27ee060b-6681-4176-993b-18f2d7e5aa08",
-    "titulo": "Torneio de Beach Tennis Salvador 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-06-18",
-    "dataFim": "2025-06-20",
-    "dataLimiteInscricao": "2025-06-13",
-    "status": "Inscrições abertas",
-    "local": {
-      "cidade": "Salvador",
-      "estado": "BA",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "48df82df-ae40-4fe4-b486-aab01110f72a",
-      "nome": "Daniela Santos"
-    },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 10
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 10,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 5000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 2000.0
-    }
-  },
-  {
-    "id": "838da8dd-9462-4476-8925-e3facb73b418",
-    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-11-12",
-    "dataFim": "2025-11-14",
-    "dataLimiteInscricao": "2025-11-07",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "Florianópolis",
-      "estado": "SC",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
-      "nome": "Pedro Gomes"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 31
-      },
-      {
-        "nome": "Masculino A",
-        "nivel": "Avançado",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 12
-      },
-      {
-        "nome": "Misto B",
-        "nivel": "Intermediário",
-        "vagasTotal": 24,
-        "vagasPreenchidas": 17
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 60,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 8000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 800.0
-    }
-  },
-  {
-    "id": "0f985996-62a4-4337-ba10-ff4238026f1c",
-    "titulo": "Torneio de Beach Tennis Florianópolis 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-11-17",
-    "dataFim": "2025-11-18",
-    "dataLimiteInscricao": "2025-11-12",
-    "status": "Torneio em andamento",
-    "local": {
-      "cidade": "Florianópolis",
-      "estado": "SC",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "faa04aa0-f4dd-4b7b-9287-3ad495709b00",
-      "nome": "Carlos Ribeiro"
-    },
-    "categorias": [
-      {
-        "nome": "Open Masculino",
-        "nivel": "Profissional",
-        "vagasTotal": 16,
-        "vagasPreenchidas": 3
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 150.0,
-      "totalInscritos": 3,
-      "statusInscricoes": "abertas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 4000.0,
-      "terceiroLugar": 1000.0
-    }
-  },
-  {
-    "id": "3d747036-049b-4575-914e-a5e809bea8ae",
-    "titulo": "Torneio de Beach Tennis Rio de Janeiro 2025",
-    "descricao": "Torneio oficial de beach tennis com atletas de várias regiões",
-    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bVzSGV8SzMAyW4bFcO2Oy01kwEM3aWlkg&s",
-    "dataInicio": "2025-05-07",
-    "dataFim": "2025-05-10",
-    "dataLimiteInscricao": "2025-05-02",
-    "status": "Torneio encerrado",
-    "local": {
-      "cidade": "Rio de Janeiro",
-      "estado": "RJ",
-      "endereco": "Arena Central de Beach Tennis"
-    },
-    "organizador": {
-      "id": "276bf7a0-8019-432d-85cf-5b98132b2e39",
-      "nome": "Pedro Gomes"
-    },
-    "categorias": [
-      {
-        "nome": "Feminino A",
-        "nivel": "Avançado",
-        "vagasTotal": 32,
-        "vagasPreenchidas": 20
-      }
-    ],
-    "inscricoes": {
-      "valorInscricao": 200.0,
-      "totalInscritos": 20,
-      "statusInscricoes": "encerradas"
-    },
-    "premiacao": {
-      "primeiroLugar": 3000.0,
-      "segundoLugar": 2500.0,
-      "terceiroLugar": 800.0
     }
   }
 ]

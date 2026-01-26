@@ -29,7 +29,7 @@ const TitleName = styled.h2`
 export default function TournamentInfoPage() {
 
     const { id } = useParams();
-    const [tournament, setTournament] = useState({});
+    const [tournament, setTournament] = useState({local:{}, organizador:{}});
 
     function getTournamentById(id) {
         let response;
