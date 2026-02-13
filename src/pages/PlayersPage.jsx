@@ -6,6 +6,10 @@ import { styled } from "styled-components";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+const PlayersPageContainer = styled.div`
+  margin-top: 65px;
+`;
+
 const SummaryTable = styled.table`
   width: 100%;
   border-collapse: collapse;
@@ -155,7 +159,7 @@ export default function PlayersPage() {
   }
 
   return (
-    <div>
+    <PlayersPageContainer>
       <Navigation />
       
       <FilterContainer>
@@ -244,6 +248,6 @@ export default function PlayersPage() {
           </SummaryTbody>
         </SummaryTable>
       )}
-    </div>
+    </PlayersPageContainer>
   );
 }

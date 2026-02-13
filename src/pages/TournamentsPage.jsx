@@ -5,9 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const TournamentPageContainer = styled.div`
-    @media (min-width: 992px) {
-        margin-top: 75px;
-    }
+    margin-top: 75px;
 `;
 
 const FilterContainer = styled.div`
@@ -20,6 +18,7 @@ const FilterContainer = styled.div`
   @media (min-width: 992px){
     margin: 75px 0 0 0;
     flex-direction: row;
+    align-items: flex-end;
   }
 `;
 
@@ -73,60 +72,113 @@ const TournamentCard = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    gap: 16px;
+    align-items: stretch;
+    gap: 20px;
     width: 100%;
-    height: 200px;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 8px;
-    padding: 8px 16px;
+    min-height: 220px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
     &:hover{
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border-color: #6b8cff;
         cursor: pointer;
     }
 
     & img {
-        height: 80%;
-        aspect-ratio: 1;
+        width: 160px;
+        height: 160px;
         object-fit: cover;
-        border-radius: 50%;
+        border-radius: 12px;
+        flex-shrink: 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        
+        & img {
+            width: 100%;
+            max-width: 200px;
+            height: 200px;
+        }
     }
 `;
 
 const TournamentCardInfo = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
-    height: 100%;
     width: 100%;
+    gap: 12px;
 
     & p{
-        font-size: 20px;
+        font-size: 15px;
+        color: #4b5563;
+        line-height: 1.5;
+        margin: 0;
+
+        & strong {
+            color: #1f2937;
+            font-weight: 600;
+        }
+    }
+
+    @media (max-width: 768px) {
+        align-items: center;
+        text-align: center;
     }
 `;
 
 const TitleOrganizerContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    gap: 16px;
+    flex-wrap: wrap;
 
     & p {
-        font-size: 24px;
-        padding: 8px 16px;
-        border-radius: 6px;
+        font-size: 14px;
+        padding: 8px 14px;
+        border-radius: 8px;
+        background: #f3f4f6;
+        color: #374151;
+        transition: all 0.2s ease;
+        margin: 0;
 
         &:hover {
-            box-shadow: rgba(30, 30, 120, 0.2) 0px 3px 8px;
+            background: #6b8cff;
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(107, 140, 255, 0.3);
         }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
     }
 `;
 
 const TournamentTitle = styled.h3`
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+    line-height: 1.3;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+    }
 `;
 
 const StatusSelection = styled.select`

@@ -13,7 +13,7 @@ const Container = styled.div`
     align-items: center;
     gap: 20px;
     width: 100%;
-    margin: 18px 0;
+    margin-top: 75px;
     padding: 0 36px;
 
     @media (min-width: 576px){
